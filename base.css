@@ -1,0 +1,32 @@
+.section {
+	padding:120px 0;
+	
+}
+
+.container {
+	width: 940px;
+	padding:0 10px;
+	text-align: center;
+}
+
+.clearfix {
+	content: "";
+	overflow: hidden;
+	display: table;
+	clear: both;
+}
+
+.title {
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #222;
+}
+
+.title-white {
+	color: #fff;
+	
+}
+
+.description {
+	margin:19px 0 76px 0;
+}
