@@ -1,1 +1,0 @@
-# koshechki-hacker-team
