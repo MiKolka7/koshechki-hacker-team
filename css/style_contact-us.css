@@ -1,7 +1,41 @@
 .contact_us {
-	background-image: url();
+	background: url(../img/contact_us_bg.png);
+	text-align: center;
+	
 }
 
 .input {
 	display: block;
+}
+
+.contact_us h2 {
+	color: #fff;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.contact_us h3 {
+	color: #777;
+	font-family: 'Droid Serif', serif;
+	font-size: 16px;
+	font-style: italic;
+}
+
+.contact_us form {
+	display: inline-block;
+	
+	
+}
+.input, textarea {
+	display: block;
+	float: left;
+	
+}
+
+
+.contact_us button {
+	background-color: #fed136;
+	border-radius: 2px;
 }
