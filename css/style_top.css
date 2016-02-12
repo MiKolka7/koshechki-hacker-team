@@ -3,14 +3,14 @@
 	padding: 0 10px;
 	text-align: center;
 	position: absolute;
-	left: 20%;
+	left: 16%;
 	margin: 0px auto;
 }
 
-
 .top {
-	background: url(../img/tint.png), url(../img/top_bg.png) no-repeat;
- 	height: 700px;
+	height: 750px;
+	background: url(../img/tint.png), url(../img/top_bg.png) 100% 100% no-repeat;
+	background-size: cover;
  	color: #fff;
 }
 
@@ -30,10 +30,9 @@
 }	
 
 .menu {
-	padding-right: 40px;
-	font-size: 14px;
-	font-weight: 400;
-	font-family: Montserrat-Regular;
+	padding-left: 40px;
+	font-size: 13px;
+	font-family: "MontserratRegular";
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;	
@@ -48,12 +47,12 @@
 	clear: both;
 	font-size: 40px;
 	padding-bottom: 52px;
-	font-family: Droid-Serif;
+	font-family: "DroidSerifItalic";
 }
 
 h1 {
 	font-size: 75px;
-	font-family: Montserrat-Regular;
+	font-family: "MontserratBold";
 }
 
 button {
@@ -64,10 +63,11 @@ button {
 	background-color: #fed136;
 	border: 0px;
 	border-radius: 5px;
-	font-family: Montserrat-Regular;
+	font-family: "MontserratBold";
 	font-weight: 700;
 	font-size: 18px;
 	color: #fff;
 	text-align: center;
 	text-transform: uppercase;
+	cursor: pointer;
 }
