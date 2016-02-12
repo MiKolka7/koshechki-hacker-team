@@ -1,0 +1,73 @@
+.container {
+	width: 940px;
+	padding: 0 10px;
+	text-align: center;
+	position: absolute;
+	left: 20%;
+	margin: 0px auto;
+}
+
+
+.top {
+	background: url(../img/tint.png), url(../img/top_bg.png) no-repeat;
+ 	height: 700px;
+ 	color: #fff;
+}
+
+.header {
+    padding-top: 55px;
+    padding-bottom: 212px;
+}
+
+.logo {
+	width: 7%;
+	float: left;
+} 
+
+.nav {
+	width: 54%;
+	float: right;
+}	
+
+.menu {
+	padding-right: 40px;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;	
+    float: left;
+}
+
+.menu:hover {
+	color: #fed136;
+}
+
+.welcome {
+	clear: both;
+	font-size: 40px;
+	padding-bottom: 52px;
+	font-family: Droid-Serif;
+}
+
+h1 {
+	font-size: 75px;
+	font-family: Montserrat-Regular;
+}
+
+button {
+	margin-top: 59px;
+	margin-bottom: 160px;
+	width: 240px;
+	height: 65px;
+	background-color: #fed136;
+	border: 0px;
+	border-radius: 5px;
+	font-family: Montserrat-Regular;
+	font-weight: 700;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
