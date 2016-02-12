@@ -1,5 +1,6 @@
 .contact_us {
-	background: url(../img/contact_us_bg.png);
+	background: url("../img/map_image.png") #222 no-repeat 50% 100%;
+	background-size: contain;
 	text-align: center;
 	
 }
@@ -16,7 +17,7 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
-.contact_us h3 {
+.contact_us h3 {	
 	color: #777;
 	font-family: 'Droid Serif', serif;
 	font-size: 16px;
@@ -25,15 +26,18 @@
 
 .contact_us form {
 	display: inline-block;
+	/*height:auto;*/
 	
 	
 }
-.input, textarea {
+.contact_us .input, textarea {
 	display: block;
 	float: left;
-	
+	}
+.contact_us textarea {
+	height: auto;
+	display: table;
 }
-
 
 .contact_us button {
 	background-color: #fed136;
