@@ -29,4 +29,8 @@
 
 .description {
 	margin:19px 0 76px 0;
+	font-style: italic;
+	color: #777;
+	font-size: 17px;
+	font-family: DroidSerif;
 }
