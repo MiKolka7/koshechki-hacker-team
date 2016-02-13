@@ -16,7 +16,7 @@
  	background-color: #fed136;
  	width: 175px;
     height: 175px;
-    background: #000:
+    background: #000;
  }
 
 .line {
@@ -35,8 +35,9 @@
 	position: absolute;
 	top: 0;
 	right: 100%;
-	padding: 0 10px;
+	padding: 0 39px 0 0;
 	text-align: right;
+	width: 305px;
 }
 
 .text-right {
@@ -44,8 +45,9 @@
 	position: absolute;
 	top: 0;
 	left: 100%;
-	padding: 0 10px;
+	padding: 0 0 0 39px;
 	text-align: left;
+	width: 305px;
 }
 
 .text-sub {
@@ -82,4 +84,42 @@
 	top: 28%;
 	left: 20%;
 	text-align: center;
+}
+
+.our_team {
+	background-color: #f9f9f9;
+}
+
+.profile {
+	display: inline-block;
+}
+
+.cicle-profile {
+	border: 7px solid #fff;
+ 	background-color: #111;
+ 	width: 234px;
+    height: 234px;
+    background: #111;
+}
+
+.text-sub_profile {
+	font-size: 14px;
+}
+
+.text-main_profile {
+	font-size: 16px;
+}
+
+.cicle-social {
+	width: 40px;
+	height: 40px;
+	background-color: #f9f9f9;
+	border: 3px solid #222;
+}
+
+.twitter {
+	background-image: url(../pic/twitter-black.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+
 }
