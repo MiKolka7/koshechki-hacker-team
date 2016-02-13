@@ -104,10 +104,15 @@
 
 .text-sub_profile {
 	font-size: 14px;
+	margin-bottom: 14px;
 }
 
 .text-main_profile {
 	font-size: 16px;
+}
+
+.profile {
+	display: inline-block;
 }
 
 .cicle-social {
@@ -115,11 +120,22 @@
 	height: 40px;
 	background-color: #f9f9f9;
 	border: 3px solid #222;
+	float: left;
+	margin-bottom: 0 5px 19px 5px;
 }
 
 .twitter {
-	background-image: url(../pic/twitter-black.png);
-	background-position: center center;
-	background-repeat: no-repeat;
+	background: url(../pic/twitter-black.png) center center no-repeat;
+}
 
+.facebook {
+	background: url(../pic/facebook-black.png) center center no-repeat;
+}
+
+.pinterest {
+	background: url(../pic/pinterest-black.png) center center no-repeat;
+}
+
+.google {
+	background: url(../pic/google-black.png) center center no-repeat;
 }

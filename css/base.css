@@ -7,6 +7,7 @@
 	width: 940px;
 	padding:0 10px;
 	text-align: center;
+	margin: 0 auto;
 }
 
 .clearfix::after {
