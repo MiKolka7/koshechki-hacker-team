@@ -9,41 +9,51 @@
 	display: block;
 }
 
-.contact_us h2 {
+ h2 {
 	color: #fff;
 	font-size: 40px;
-	font-weight: 700;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 }
 
-.contact_us h3 {	
+ .h3 {	
 	color: #777;
 	font-family: 'Droid Serif', serif;
 	font-size: 16px;
 	font-style: italic;
 }
 
-.contact_us form {
+  .contact_form {
 	display: inline-block;
+	width: 100%;
+	
+}
+.contact_form input{
+	width: 98%;
+	margin-right: 2%;
+	/*height:100%;*/
 }
 
-
-.contact_us .input, textarea {
+.contact_form .input, textarea {
 	display: block;
 	float: left;
-	/*margin:14px;*/
-	}
-
-.contact_us textarea, input {
-	margin: 12px;
-	padding: 5px 2px ;
+	width: 50%;
 }
 
-.contact_us button {
-	/*border-radius: 2px;*/
-	margin-top: 59px;
-    margin-bottom: 160px;
+.contact_form textarea, input {
+	margin-bottom: 2.9%;
+    padding: 4% 4%;
+	font-size: 14px;
+	/*font-weight: 700;*/
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 4px;
+	height:100%;
+
+	
+}
+
+button {
     width: 240px;
     height: 65px;
     background-color: #fed136 ;
@@ -55,5 +65,8 @@
     color: #fff;
     text-align: center;
     text-transform: uppercase;
-    cursor: pointer;
+    cursor: pointer
 }
+
+/*1400 676*/
+/*width message 456*/
