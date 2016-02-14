@@ -1,0 +1,71 @@
+.container {
+	width: 940px;
+	padding: 0 10px;
+	text-align: center;
+	position: absolute;
+	left: 16%;
+	margin: 0px auto;
+}
+
+.services {
+	height: 518px;
+}
+
+h2 {
+	margin-top: 40px;
+	color: #222;
+}
+
+.col {
+	width: 30.33%;
+	margin: 0 1.5%;	
+	float: left;
+}
+
+.circles {
+	width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: 4px solid #fed136;
+    background: #fff;
+    position: relative;
+    margin: auto;
+}
+
+.circle-1 {
+	margin: 0;
+	position: absolute;
+	top: 20%;
+	right: 24%;
+}
+
+.circle-2 {
+	margin: 0;
+	position: absolute;
+	top: 23%;
+	right: 22%;
+}
+
+.circle-3 {
+	margin: 0;
+	position: absolute;
+	top: 21%;
+	right: 31%;
+}
+
+h3 {
+	font-family: "MontserratBold";
+	font-size: 18px;
+	color: #222;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+.txt {
+ 	color: #777;
+	font-family: "RobotoSlabRegular";
+	font-size: 13px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.7;
+}
