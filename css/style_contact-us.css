@@ -10,14 +10,14 @@
 }
 
 
- h2 {
+ .header2 {
 	color: #fff;
 	font-size: 40px;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 }
 
- .h3 {	
+ .header3 {	
 	color: #777;
 	font-family: 'Droid Serif', serif;
 	font-size: 16px;
