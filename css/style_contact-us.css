@@ -47,10 +47,11 @@ textarea, input {
 	height:100%;
 }
 
-button {
+.btn_msg {
     width: 240px;
     height: 65px;
-    background-color: #fed136 ;
+    background-color: #fed136;
+    color: #FFF;
     border: 0px;
     border-radius: 5px;
     font-family: 'Montserrat', sans-serif;
@@ -61,12 +62,7 @@ button {
     cursor: pointer;
 }
 
-button a {
-	text-decoration:none;
-	color: #fff;
-}
-
-button a:hover {
+.btn_msg:hover {
 	color:rgba(182, 57, 135, 0.9);
 -webkit-transition: color .6s;
 	-o-transition: color .6s;
@@ -79,8 +75,8 @@ button a:hover {
 	display: inline-block;
 	overflow: hidden;
 	width: 100%;
-	/*padding: 6%;*/
 }
+
 .wrap_cont {
 	padding: 4% 0;
 }
@@ -91,22 +87,13 @@ button a:hover {
 	float: left;
 }
 
-p {
-	padding-top: 20%;
-	color: #555;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 22px;
-	}
 
 .soc_net {
 	overflow: hidden;
 	float: left;
 	width: 31%;
-	/*height:auto;*/
 	margin-left: 5%;
-	padding-top: 5%;
+	padding-top: 1%;
 	padding-left: 5%;
 	padding-bottom: 5%;
 }
@@ -165,10 +152,11 @@ p {
 	background-repeat: no-repeat;
 	}
 
-.copyrights p {
+ p {
+	padding-top: 6%;
 	color: #555;
-	font-family: Montserrat;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 22px;
-}
+	}
