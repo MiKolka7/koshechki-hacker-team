@@ -125,22 +125,22 @@ p {
 	-webkit-transition:All 1.3467s ease;
 	-moz-transition:All 1.3467s ease;
 	-o-transition:All 1.3467s ease;
-	transform: rotate(0deg) scale(0.769) skew(0deg);
-	-webkit-transform: rotate(0deg) scale(0.769) skew(0deg);
-	-moz-transform: rotate(0deg) scale(0.769) skew(0deg);
-	-o-transform: rotate(0deg) scale(0.769) skew(0deg);
-	-ms-transform: rotate(0deg) scale(0.769) skew(0deg);
+	transform: rotate(0deg) scale(0.769);
+	-webkit-transform: rotate(0deg) scale(0.769);
+	-moz-transform: rotate(0deg) scale(0.769);
+	-o-transform: rotate(0deg) scale(0.769);
+	-ms-transform: rotate(0deg) scale(0.769);
 	}
 
 .fb:hover,
 .gl:hover,
 .pin:hover,
 .tw:hover {
-	transform: rotate(360deg) scale(1.126) skew(0deg);
-	-webkit-transform: rotate(360deg) scale(1.126) skew(0deg);
-	-moz-transform: rotate(360deg) scale(1.126) skew(0deg);
-	-o-transform: rotate(360deg) scale(1.126) skew(0deg);
-	-ms-transform: rotate(360deg) scale(1.126) skew(0deg);
+	transform: rotate(360deg) scale(1.226);
+	-webkit-transform: rotate(360deg) scale(1.226);
+	-moz-transform: rotate(360deg) scale(1.226);
+	-o-transform: rotate(360deg) scale(1.226);
+	-ms-transform: rotate(360deg) scale(1.226);
 }
 .fb {
 	background-image: url(../img/icon/sprite_social.png);
@@ -164,7 +164,7 @@ p {
 	background-position: 4px 1px;
 	background-repeat: no-repeat;
 	}
-	
+
 .copyrights p {
 	color: #555;
 	font-family: Montserrat;
