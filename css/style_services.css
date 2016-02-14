@@ -1,0 +1,109 @@
+.services {
+	background-color: #fff;
+}
+
+.title {
+	text-align:center;
+	width: 193px;
+	height: 30px;
+	color: #222;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 75px;
+	text-transform: uppercase;
+}
+
+.icon-basket {
+	width: 38px;
+	height: 38px;
+	background-color: #fed136;
+	border: 3px solid #fed136;
+    position: relative;
+    margin: 0 auto 93px;
+}
+
+.text {
+	width: 274px;
+	height: 57px;
+	color: #777;
+	font-family: RobotoSlab;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+
+.icon-laptop {
+	width: 40px;
+	height: 34px;
+	background-color: #fed136;
+	border-radius: 4px;
+}
+
+.icon-locked {
+	width: 28px;
+	height: 37px;
+	background-color: #fed136;
+}
+
+.circle-1 {
+	width: 72px;
+	height: 72px;
+	background-color: white;
+	border: 3px solid #fed136;
+}
+
+.circle-2{
+	width: 72px;
+	height: 72px;
+	background-color: white;
+	border: 3px solid #fed136;
+}
+
+.circle-3{
+	width: 72px;
+	height: 72px;
+	background-color: white;
+	border: 3px solid #fed136;
+
+}
+
+.e-commerce {
+	width: 115px;
+	height: 14px;
+	color: #222;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 75px;
+}
+
+.responsive {
+	width: 144px;
+	height: 18px;
+	color: #222;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 75px;
+}
+
+.web-security {
+	width: 118px;
+	height: 18px;
+	color: #222;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 75px;
+}
+
+.text {
+	width: 274px;
+	height: 57px;
+	color: #777;
+	font-family: RobotoSlab;
+	font-size: 14px;
+	font-weight: 400;
+}
+
