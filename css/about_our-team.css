@@ -16,7 +16,7 @@
  	background-color: #fed136;
  	width: 175px;
     height: 175px;
-    background: #000;
+    margin-bottom: 0;
  }
 
 .line {
@@ -53,14 +53,14 @@
 .text-sub {
 	width: 307px;
 	color: #777;
-	font-family: RobotoSlab;
+	font-family: 'Roboto Slab', serif;
 	font-size: 14px;
 	font-weight: 400; 
 }
 
 .text-main {
 	color: #222;
-	font-family: Montserrat;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	padding-bottom: 10px;
@@ -76,7 +76,7 @@
 .cicle-text {
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
 	color: white;
-	font-family: Montserrat;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -97,9 +97,10 @@
 .cicle-profile {
 	border: 7px solid #fff;
  	background-color: #111;
- 	width: 234px;
-    height: 234px;
+ 	width: 227px;
+    height: 227px;
     background: #111;
+    margin-bottom: 20px;
 }
 
 .text-sub_profile {
@@ -116,12 +117,12 @@
 }
 
 .cicle-social {
-	width: 40px;
-	height: 40px;
+	width: 37px;
+	height: 37px;
 	background-color: #f9f9f9;
 	border: 3px solid #222;
-	float: left;
-	margin-bottom: 0 5px 19px 5px;
+	margin: 0 5px 51px 5px;
+	display: inline-block;
 }
 
 .twitter {
@@ -138,4 +139,11 @@
 
 .google {
 	background: url(../pic/google-black.png) center center no-repeat;
+}
+
+.text-team {
+	font-size: 16px;
+	display: block;
+	width: 600px;
+	padding: 0 170px;
 }
