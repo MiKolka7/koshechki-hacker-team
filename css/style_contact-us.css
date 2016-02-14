@@ -1,59 +1,172 @@
+
+/*contact us*/
+
 .contact_us {
-	background: url("../img/map_image.png") #222 no-repeat 50% 100%;
+	background: url("../img/map_image.png") #222 no-repeat 65% 100%;
 	background-size: contain;
 	text-align: center;
+	display: table;
+	width: 100%;
 	
 }
 
-.input {
-	display: block;
-}
 
-.contact_us h2 {
+ h2 {
 	color: #fff;
 	font-size: 40px;
-	font-weight: 700;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 }
 
-.contact_us h3 {	
+ .h3 {	
 	color: #777;
 	font-family: 'Droid Serif', serif;
 	font-size: 16px;
 	font-style: italic;
 }
 
-.contact_us form {
-	display: inline-block;
-	/*height:auto;*/
-	
-	
-}
-.contact_us .input, textarea {
-	display: block;
-	float: left;
-	}
-.contact_us textarea {
-	height: auto;
-	display: table;
+
+input {
+	width: 98%;
+	margin-right: 2%;
+	padding: 4% 4%;
 }
 
-.contact_us button {
-	/*background-color: #fed136;
-	border-radius: 2px;*/
-	margin-top: 59px;
-    margin-bottom: 160px;
+.input, textarea {
+	display: inline-block;
+	
+	float: left;
+	width: 50%;
+}
+
+textarea, input {
+	margin-bottom: 2.9%;
+    padding: 4% 4%;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 4px;
+	height:100%;
+}
+
+button {
     width: 240px;
     height: 65px;
     background-color: #fed136 ;
     border: 0px;
     border-radius: 5px;
-    font-family: "MontserratBold";
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    color: #fff;
     text-align: center;
     text-transform: uppercase;
     cursor: pointer;
+}
+button a{
+	text-decoration:none;
+	color: #fff;
+}
+button a:hover{
+	color:rgba(182, 57, 135, 0.9);
+-webkit-transition: color .6s;
+	-o-transition: color .6s;
+	transition: color .6s;
+}
+/* end of contact us*/
+
+/* footer */
+.footer {
+	display: inline-block;
+	overflow: hidden;
+	width: 100%;
+	/*padding: 6%;*/
+}
+.wrap_cont {
+	padding: 4% 0;
+}
+
+ .copyrights, .soc_net {
+	display: block;
+	float: left;
+}
+
+p {
+	padding-top: 20%;
+	color: #555;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	}
+.soc_net {
+	overflow: hidden;
+	float: left;
+	width: 31%;
+	/*height:auto;*/
+	margin-left: 5%;
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-bottom: 5%;
+	
+}
+
+.fb, 
+.gl, 
+.pin, 
+.tw {
+	float: left;
+	width: 50px;
+    height: 50px;
+    border-radius: 25px;
+	/*background-image: url(../img/icon/sprite_social.png);*/
+	/*background-position: -14px 9px;*/
+	background-repeat: no-repeat;
+	margin-right: 7%;
+	transition:All 1.9777s ease;
+	-webkit-transition:All 1.9777s ease;
+	-moz-transition:All 1.9777s ease;
+	-o-transition:All 1.9777s ease;
+	transform: rotate(360deg) scale(0.811) skew(180deg) translate(-1px);
+	-webkit-transform: rotate(360deg) scale(0.811) skew(180deg) translate(-1px);
+	-moz-transform: rotate(360deg) scale(0.811) skew(180deg) translate(-1px);
+	-o-transform: rotate(360deg) scale(0.811) skew(180deg) translate(-1px);
+	-ms-transform: rotate(360deg) scale(0.811) skew(180deg) translate(-1px);
+	}
+
+.fb:hover,
+.gl:hover,
+.pin:hover,
+.tw:hover {
+	transform: rotate(0deg) scale(0.509) skew(166deg) translate(-83px);
+	-webkit-transform: rotate(0deg) scale(0.509) skew(166deg) translate(-83px);
+	-moz-transform: rotate(0deg) scale(0.509) skew(166deg) translate(-83px);
+	-o-transform: rotate(0deg) scale(0.509) skew(166deg) translate(-83px);
+	-ms-transform: rotate(0deg) scale(0.509) skew(166deg) translate(-83px);
+}
+.fb {
+	background-image: url(../img/icon/sprite_social.png);
+	background-position: -49px 1px;
+	background-repeat: no-repeat;
+}
+.gl {
+	background-image: url(../img/icon/sprite_social.png);
+	background-position: -146px 1px;
+	background-repeat: no-repeat;
+	}
+.pin {
+	background-image: url(../img/icon/sprite_social.png);
+	background-position: -96px 1px;
+	background-repeat: no-repeat;
+	}
+	.tw {
+	background-image: url(../img/icon/sprite_social.png);
+	background-position: 4px 1px;
+	background-repeat: no-repeat;
+	}
+.copyrights p {
+	color: #555;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
 }
