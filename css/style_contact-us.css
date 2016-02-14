@@ -7,7 +7,6 @@
 	text-align: center;
 	display: table;
 	width: 100%;
-	
 }
 
 
@@ -34,7 +33,6 @@ input {
 
 .input, textarea {
 	display: inline-block;
-	
 	float: left;
 	width: 50%;
 }
@@ -62,11 +60,13 @@ button {
     text-transform: uppercase;
     cursor: pointer;
 }
-button a{
+
+button a {
 	text-decoration:none;
 	color: #fff;
 }
-button a:hover{
+
+button a:hover {
 	color:rgba(182, 57, 135, 0.9);
 -webkit-transition: color .6s;
 	-o-transition: color .6s;
@@ -85,7 +85,8 @@ button a:hover{
 	padding: 4% 0;
 }
 
- .copyrights, .soc_net {
+ .copyrights, 
+ .soc_net {
 	display: block;
 	float: left;
 }
@@ -98,6 +99,7 @@ p {
 	font-weight: 400;
 	line-height: 22px;
 	}
+
 .soc_net {
 	overflow: hidden;
 	float: left;
@@ -107,7 +109,6 @@ p {
 	padding-top: 5%;
 	padding-left: 5%;
 	padding-bottom: 5%;
-	
 }
 
 .fb, 
@@ -118,30 +119,28 @@ p {
 	width: 50px;
     height: 50px;
     border-radius: 25px;
-	/*background-image: url(../img/icon/sprite_social.png);*/
-	/*background-position: -14px 9px;*/
 	background-repeat: no-repeat;
 	margin-right: 7%;
-	transition:All 1.9777s ease;
-	-webkit-transition:All 1.9777s ease;
-	-moz-transition:All 1.9777s ease;
-	-o-transition:All 1.9777s ease;
-	transform: rotate(360deg) scale(0.811) skew(180deg) translate(-1px);
-	-webkit-transform: rotate(360deg) scale(0.811) skew(180deg) translate(-1px);
-	-moz-transform: rotate(360deg) scale(0.811) skew(180deg) translate(-1px);
-	-o-transform: rotate(360deg) scale(0.811) skew(180deg) translate(-1px);
-	-ms-transform: rotate(360deg) scale(0.811) skew(180deg) translate(-1px);
+	transition:All 1.3467s ease;
+	-webkit-transition:All 1.3467s ease;
+	-moz-transition:All 1.3467s ease;
+	-o-transition:All 1.3467s ease;
+	transform: rotate(0deg) scale(0.769) skew(0deg);
+	-webkit-transform: rotate(0deg) scale(0.769) skew(0deg);
+	-moz-transform: rotate(0deg) scale(0.769) skew(0deg);
+	-o-transform: rotate(0deg) scale(0.769) skew(0deg);
+	-ms-transform: rotate(0deg) scale(0.769) skew(0deg);
 	}
 
 .fb:hover,
 .gl:hover,
 .pin:hover,
 .tw:hover {
-	transform: rotate(0deg) scale(0.509) skew(166deg) translate(-83px);
-	-webkit-transform: rotate(0deg) scale(0.509) skew(166deg) translate(-83px);
-	-moz-transform: rotate(0deg) scale(0.509) skew(166deg) translate(-83px);
-	-o-transform: rotate(0deg) scale(0.509) skew(166deg) translate(-83px);
-	-ms-transform: rotate(0deg) scale(0.509) skew(166deg) translate(-83px);
+	transform: rotate(360deg) scale(1.126) skew(0deg);
+	-webkit-transform: rotate(360deg) scale(1.126) skew(0deg);
+	-moz-transform: rotate(360deg) scale(1.126) skew(0deg);
+	-o-transform: rotate(360deg) scale(1.126) skew(0deg);
+	-ms-transform: rotate(360deg) scale(1.126) skew(0deg);
 }
 .fb {
 	background-image: url(../img/icon/sprite_social.png);
@@ -153,16 +152,19 @@ p {
 	background-position: -146px 1px;
 	background-repeat: no-repeat;
 	}
+
 .pin {
 	background-image: url(../img/icon/sprite_social.png);
 	background-position: -96px 1px;
 	background-repeat: no-repeat;
 	}
+
 	.tw {
 	background-image: url(../img/icon/sprite_social.png);
 	background-position: 4px 1px;
 	background-repeat: no-repeat;
 	}
+	
 .copyrights p {
 	color: #555;
 	font-family: Montserrat;
