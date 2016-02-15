@@ -34,18 +34,20 @@
 	margin:19px 0 76px 0;
 	color: #777;
 	font-size: 17px;
-	font-family: "DroidSerifItalic";
+	font-family: 'Droid Serif', serif;
+	font-style: italic;
 }
 
 h2 {
-    font-family: "MontserratBold";	
+    font-family: 'Montserrat', sans-serif;	
 }
 /* endd ofbase */
 
 /* _______ style top  ______*/
 .wrapper {
 	position: absolute;
-	left: 16%;
+	/*left: 16%; */
+	/*если оставить left: 16%; едет топ и сервис отделы*/
 }
 
 .top {
@@ -97,11 +99,14 @@ h2 {
 	font-size: 40px;
 	padding-bottom: 52px;
 	font-family: "DroidSerifItalic";
+	color:#fff;
+	font-style: italic;
+	
 }
 
 h1 {
 	font-size: 75px;
-	font-family: "MontserratBold";
+	font-family: 'Montserrat', sans-serif;	
 }
 
 button {
@@ -112,7 +117,7 @@ button {
 	background-color: #fed136;
 	border: 0px;
 	border-radius: 5px;
-	font-family: "MontserratBold";
+	font-family: 'Montserrat', sans-serif;	
 	font-weight: 700;
 	font-size: 18px;
 	color: #fff;
@@ -372,7 +377,7 @@ h3 {
 /*contact us*/
 
 .contact_us {
-	background: url("../img/map_image.png") #222 no-repeat 85% 100%;
+	background: url("../img/map_image.png") #222 no-repeat 100% 100%;
 	background-size: contain;
 	text-align: center;
 	display: table;
@@ -522,7 +527,7 @@ textarea, input {
 	background-repeat: no-repeat;
 	}
 
- p {
+ footer p {
 	padding-top: 6%;
 	color: #555;
 	font-family: 'Montserrat', sans-serif;
