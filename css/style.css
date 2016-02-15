@@ -111,7 +111,7 @@ h1 {
 
 button {
 	margin-top: 59px;
-	margin-bottom: 160px;
+	/*margin-bottom: 160px;*/
 	width: 240px;
 	height: 65px;
 	background-color: #fed136;
@@ -196,6 +196,61 @@ h3 {
 /*end of services*/
 
 /*our portfolio*/
+.portfolio {
+	background: #f7f7f7;
+	background-size: contain;
+	display: table;
+	width: 100%;
+	
+
+}
+
+.portfolio h2 {
+	margin-top: 70px;
+	color: #222;
+	text-align: center;
+}
+
+.portfolio .col {
+	width: 30.33%;
+	margin: 0 1.5%;	
+	float: left;
+	margin: 14px;
+}
+
+.portfolio .img {
+	width: 290px;
+	height: 393px;
+    position: relative;
+    margin: auto;
+   background-color: white;
+}
+
+.portfolio .img1 {
+	z-index: 10;
+}
+
+.portfolio .img > div{
+	margin-top: 75px;
+}
+
+.portfolio h3 {
+	font-family: "MontserratBold";
+	font-size: 18px;
+	color: #222;
+	margin-top: -50px;
+	margin-bottom: 6px;
+
+}
+
+.portfolio .txt {
+ 	color: #777;
+	font-family: "DroidSerifItalic";
+	font-size: 13px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 0.7;
+}
 
 /*our end of portfolio*/
 
@@ -414,7 +469,7 @@ input {
 
 textarea, input {
 	margin-bottom: 2.9%;
-    padding: 4% 4%;
+    padding: 3.8% 4%;
 	font-size: 14px;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
@@ -423,6 +478,7 @@ textarea, input {
 }
 
 .btn_msg {
+	margin-top: -29px;
     width: 240px;
     height: 65px;
     background-color: #fed136;
