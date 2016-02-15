@@ -1,0 +1,54 @@
+.portfolio {
+	width: 1400px;
+	height: 1218px;
+	background-color: #f7f7f7;
+	margin: 0 auto;
+
+}
+
+h2 {
+	margin-top: 70px;
+	color: #222;
+	text-align: center;
+}
+
+.col {
+	width: 30.33%;
+	margin: 0 1.5%;	
+	float: left;
+	margin: 14px;
+}
+
+.picture {
+	width: 290px;
+	height: 393px;
+    position: relative;
+    margin: auto;
+   background-color: white;
+}
+
+.picture-1 {
+	z-index: 10;
+}
+
+.picture > div{
+	margin-top: 75px;
+}
+
+h3 {
+	font-family: "MontserratBold";
+	font-size: 18px;
+	color: #222;
+	margin-top: -50px;
+	margin-bottom: 6px;
+
+}
+
+.txt {
+ 	color: #777;
+	font-family: "DroidSerifItalic";
+	font-size: 13px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 0.7;
+}
