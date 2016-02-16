@@ -5,7 +5,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Git Hub Lesson 9 team work</title>
 	<link rel="stylesheet" href="css/reset.css">
-	<!-- <link rel="stylesheet" href="css/base.css"> -->
 	<link rel="stylesheet" href="css/style.css">
 	<!-- <link rel="stylesheet" type="text/css" href="css/style_top.css"> -->
 	<!-- <link rel="stylesheet" type="text/css" href="css/style_services2.css"> -->
@@ -14,11 +13,11 @@
 	<!-- <link rel="stylesheet" href="css/style_contact-us.css"> -->
 	<link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <!-- header -->
-<div class="top">
-		<p><a name="top"></a></p>
+	<div class="top">
 		
 		<div class="container">
 			<div class="header">
@@ -27,13 +26,11 @@
 					<img src="img/top_header/logo-treehouse.png" alt="">
 				</div>
 				<nav class="nav">
-					<ul>
-						<li><a class="menu" href="#top" title="">Home</a></li>
-						<li><a class="menu" href="#services" title="">Services</a></li>
-						<li><a class="menu" href="#portfolio" title="">Portfolio</a></li>
-						<li><a class="menu" href="#about" title="">About</a></li>
-						<li><a class="menu" href="#contact" title="">Contact</a></li>
-					</ul>
+					<a class="menu" href="#top" title="">Home</a>
+					<a class="menu" href="#services" title="">Services</a>
+					<a class="menu" href="#portfolio" title="">Portfolio</a>
+					<a class="menu" href="#about" title="">About</a>
+					<a class="menu" href="#contact" title="">Contact</a>
 				</nav>
 				
 			</div>
@@ -42,7 +39,7 @@
 
 			<h1>It’s nice to Meet you</h1>
 
-			<button type="submit" value="BUTTOM">Tell Me More</button>
+			<button class="tellme" type="submit" value="next">Tell Me More</button>
 
 		</div>
 
@@ -50,7 +47,7 @@
 <!-- end of header -->
 
 <!-- services -->
-<div class="services" id="services">
+<div class="services">
 		<div class="container">	
 			<h2 class="title">Services</h2>
 
@@ -88,89 +85,7 @@
 <!-- end of services -->
 
 <!-- portfolio -->
-<div class="portfolio" id="portfolio">
-		<div class="container">	
-			<h2 class="title">OUR PORTFOLIO</h2>
 
-			<p class="description">Proin iaculis purus consequat sem cure.</p>
-
-			<div class="col">
-				<figure class="img">
-					<img class="img1" src="img/services_portfolio/image1.png">
-					<div>
-						<h3>Ebony and Ivory</h3>
-
-						<p class="txt">Clever poster</p>
-					</div>
-				</figure>
-				
-			</div>
-			<div class="col">
-				<figure class="img">
-					<img class="img2" src="img/services_portfolio/image.png">
-					<div>
-						<h3>Smart stacionaty</h3>
-
-						<p class="txt">Print design</p>
-					</div>
-				</figure>
-
-				
-			</div>
-			<div class="col">
-
-				<figure class="img">
-					<img class="img3" src="img/services_portfolio/image3.png">
-					<div>
-						<h3>Clever poster</h3>
-
-						<p class="txt">Print design</p>
-					</div>
-				</figure>
-
-				
-			</div>
-			<div class="col">
-
-				<figure class="img">
-					<img class="img3" src="img/services_portfolio/image4.png">
-					<div>
-						<h3>Vinyl Record</h3>
-
-						<p class="txt">Product Mock-up</p>
-					</div>
-				</figure>
-
-				
-			</div>
-			<div class="col">
-
-				<figure class="img">
-					<img class="img3" src="img/services_portfolio/image5.png">
-					<div>
-						<h3>Treehouse template</h3>
-
-						<p class="txt">Web design</p>
-					</div>
-				</figure>
-
-				
-			</div>
-			<div class="col">
-
-				<figure class="img">
-					<img class="img3" src="img/services_portfolio/image6.png">
-					<div>
-						<h3>Burned logo</h3>
-
-						<p class="txt">Branding</p>
-					</div>
-				</figure>
-
-				
-			</div>
-		</div>
-	</div>		
 <!-- portfolio -->
 
 <!-- about us -->
@@ -191,7 +106,7 @@
 						</p>
 					</div>
 				</figure>
-			</div>s
+			</div>
 
 			<div class="january clearfix">
 				<figure class="cicle">
@@ -290,20 +205,10 @@
 <!-- logo -->
 	<div class="logos_team">		
 		<div class="container">
-			<ul class="logolist">
-				<li class="logos">
-					<img src="img/logo/envato.png" alt="">
-				</li>	
-				<li class="logos">	
-					<img src="img/logo/wordpress.png" alt="">
-				</li>	
-				<li class="logos">	
-					<img src="img/logo/tuts.png" alt="">
-				</li>	
-				<li class="logos">	
-					<img src="img/logo/microlancer-copy.png" alt="">
-				</li>
-			</ul>
+					<img class="logos" src="img/logo/envato.png" alt="">
+					<img class="logos" src="img/logo/wordpress.png" alt="">
+					<img class="logos" src="img/logo/tuts.png" alt="">
+					<img class="logos" src="img/logo/microlancer-copy.png" alt="">
 		</div>					
 	</div>
 <!-- logo -->
@@ -318,12 +223,10 @@
 							<input type="email" name="email" placeholder="your e-mail *">
 							<input type="text" name="subject" value="" placeholder="subject">
 						</div>
-						<textarea rows="7" placeholder="Your message *">
-						</textarea>
+						<textarea rows="7" placeholder="Your message *"></textarea>
 					</form>j                                          
 					<div class="clearfix">
-					<button class="btn_msg">						
-						Send Message
+					<button class="btn_msg" type="submit">Send Message
 					</button>
 					</div>
 			</div>
