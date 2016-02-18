@@ -291,6 +291,8 @@ h3 {
 
 .cicle_about-left {
 	margin-left: -23%;
+	float: right;
+	margin-right: 0;
 }
 
 .cicle_about-1 {
@@ -333,6 +335,7 @@ h3 {
 .text-right {
 	text-align: left;
     float: right;
+    margin: 0 2% 0 2%;
 }
 
 .text-sub {
@@ -356,7 +359,7 @@ h3 {
  	width: 175px;
     height: 175px;
     position: relative;
-    margin: 0 0 0 80.5%;
+    margin: 0 0 0 78%;
  }
 
  .cicle-text {
