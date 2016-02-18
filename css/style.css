@@ -261,8 +261,6 @@ h3 {
 
 /*our end of portfolio*/
 
-/*our end of portfolio*/
-
 /*about us*/
 .about-content_item {
 	position: relative;
@@ -442,12 +440,18 @@ h3 {
 	margin: 0 -1.5%;
 }
 
-.logos {
-	margin-right: 1.5%;
-	margin-left: 1.5%;
-	float: left;
+.logo_s {
+	margin: 0;
 }
+
+.logos {
+	vertical-align: middle;
+	width: 20%;
+    padding: 7% 1.5%;
+}	
+
 /* end of logo*/
+
 /*contact us*/
 
 .contact_us {
