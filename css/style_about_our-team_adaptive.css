@@ -1,0 +1,77 @@
+/*About us and Our team*/
+
+@media screen and (max-width: 768px) {
+	.about-content_item {
+		position: relative;
+		width: 50%;
+	}
+
+	.about-content_item:not(:last-of-type) {
+	 	padding-bottom: 93px;
+	 }
+
+	 .about-content_item-left {
+	 	margin-left: 50%;
+	 }
+
+	.cicle_about {
+		margin: 0 2% 0;
+	    margin-right: -25%;
+	    width: 183px;
+	    height: 183px;
+	    float: left;
+	}
+
+	.cicle_about-left {
+		margin-left: -23%;
+		float: right;
+		margin-right: 0;
+	}
+
+	.cicle_about::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 2px;
+		background: #f1f1f1;
+		margin-left: -1px;
+		z-index: -1;
+	}
+
+	.text {
+		text-align: right;
+	    width: 78%;
+	    float: left;
+	}
+
+	.text-right {
+		text-align: left;
+	    float: right;
+	    margin: 0 2% 0 2%;
+	}
+
+	.text-sub {
+		font-size: 14px;
+	}
+
+	.text-main {
+		font-size: 18px;
+		padding-bottom: 10px;
+	}
+
+	 .cicle_about-last {
+	 	width: 175px;
+	    height: 175px;
+	    position: relative;
+	    margin: 0 0 0 78%;
+	 }
+
+	 .cicle-text {
+		font-size: 18px;
+		position: absolute;
+		top: 24%;
+		left: 18%;
+		text-align: center;
+	}
+}
