@@ -592,19 +592,19 @@ textarea, input {
 	background-image: url(../img/icon/sprite_social.png);
 	background-position: -146px 1px;
 	background-repeat: no-repeat;
-	}
+}
 
 .pin {
 	background-image: url(../img/icon/sprite_social.png);
 	background-position: -96px 1px;
 	background-repeat: no-repeat;
-	}
+}
 
 .tw {
 	background-image: url(../img/icon/sprite_social.png);
 	background-position: 4px 1px;
 	background-repeat: no-repeat;
-	}
+}
 
  footer p {
 	padding-top: 6%;
@@ -613,5 +613,18 @@ textarea, input {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 22px;
-	}
+}
 	/* end of footer*/
+	
+	/* @viewport */
+@viewport,
+@-ms-viewport,
+@-webkit-viewport
+@-moz-viewport {
+   	width: device-width;
+   	zoom: 1;
+	max-zoom: 2;
+}	
+	/* end of @viewport */
+
+	/* @media */
