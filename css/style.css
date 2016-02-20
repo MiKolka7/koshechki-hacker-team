@@ -276,15 +276,16 @@ h3 {
 }
 
 .cicle_about {
-	margin: 0 2% 0;
-    margin-right: -25%;
-    width: 183px;
-    height: 183px;
+	margin: 0 2% 0 2%;
+    margin-right: -20%;
     float: left;
+    width: 40%;
+    height: 0;
+    padding-bottom: 40%;
 }
 
 .cicle_about-left {
-	margin-left: -23%;
+	margin-left: -20%;
 	float: right;
 	margin-right: 0;
 }
@@ -329,7 +330,7 @@ h3 {
 .text-right {
 	text-align: left;
     float: right;
-    margin: 0 2% 0 2%;
+    margin: 0 0 0 2%;
 }
 
 .text-sub {
@@ -350,10 +351,11 @@ h3 {
  .cicle_about-last {
  	border: 7px solid #f1f1f1;
  	background-color: #fed136;
- 	width: 175px;
-    height: 175px;
     position: relative;
-    margin: 0 0 0 78%;
+    margin: 0 0 0 80%;
+    width: 37%;
+    height: 0;
+    padding-bottom: 37%;
  }
 
  .cicle-text {
@@ -424,7 +426,7 @@ h3 {
 }
 
 .google {
-	background: url(../pic/google-black.png) center center no-repeat;
+	background: url(../pic/google-black.png) center no-repeat;
 }
 
 .text-team {

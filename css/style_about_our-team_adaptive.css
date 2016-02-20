@@ -1,6 +1,12 @@
 /*About us and Our team*/
-
 @media screen and (max-width: 768px) {
+	.cicle-text {
+		top: 18%;
+		left: 9%;
+	}
+}
+
+@media screen and (max-width: 600px) {
 	.about-content_item {
 		position: relative;
 		width: 50%;
@@ -14,18 +20,43 @@
 	 	margin-left: 50%;
 	 }
 
+	.cicle {
+	    border-radius: 50%;
+	}
+
 	.cicle_about {
-		margin: 0 2% 0;
-	    margin-right: -25%;
-	    width: 183px;
-	    height: 183px;
+		margin: 0 2% 0 2%;
+	    margin-right: -20%;
 	    float: left;
+	    width: 40%;
+	    height: 0;
+	    padding-bottom: 40%;
 	}
 
 	.cicle_about-left {
-		margin-left: -23%;
+		margin-left: -20%;
 		float: right;
 		margin-right: 0;
+	}
+
+	.cicle_about-1 {
+		background: url(../img/july.png) 100% no-repeat;
+		background-size: cover;
+	}
+
+	.cicle_about-2 {
+		background: url(../img/january.jpg) 100% no-repeat;
+		background-size: cover;
+	}
+
+	.cicle_about-3 {
+		background: url(../img/december.jpg) 100% no-repeat;
+		background-size: cover;
+	}
+
+	.cicle_about-4 {
+		background: url(../img/february.jpg) 100% no-repeat;
+		background-size: cover;
 	}
 
 	.cicle_about::after {
@@ -48,30 +79,114 @@
 	.text-right {
 		text-align: left;
 	    float: right;
-	    margin: 0 2% 0 2%;
+	    margin: 0 0 0 2%;
 	}
 
 	.text-sub {
+		color: #777;
+		font-family: 'Roboto Slab', serif;
 		font-size: 14px;
+		font-weight: 400; 
 	}
 
 	.text-main {
+		color: #222;
+		font-family: 'Montserrat', sans-serif;
 		font-size: 18px;
+		font-weight: 700;
 		padding-bottom: 10px;
 	}
 
 	 .cicle_about-last {
-	 	width: 175px;
-	    height: 175px;
+	 	border: 7px solid #f1f1f1;
+	 	background-color: #fed136;
 	    position: relative;
-	    margin: 0 0 0 78%;
+	    margin: 0 0 0 80%;
+	    width: 37%;
+	    height: 0;
+	    padding-bottom: 37%;
 	 }
 
 	 .cicle-text {
+		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+		color: white;
+		font-family: 'Montserrat', sans-serif;
 		font-size: 18px;
+		font-weight: 700;
+		text-transform: uppercase;
 		position: absolute;
-		top: 24%;
-		left: 18%;
+		top: 18%;
+		left: 9%;
 		text-align: center;
 	}
+
+	.our_team {
+		background-color: #f9f9f9;
+	}
+
+	.profile {
+		display: inline-block;
+	}
+
+	.cicle-profile {
+		border: 7px solid #fff;
+	 	background-color: #111;
+	 	width: 227px;
+	    height: 227px;
+	    background: #111;
+	    margin: 0 23px 20px;
+	}
+
+	.text-sub_profile {
+		font-size: 14px;
+		margin-bottom: 14px;
+	}
+
+	.text-main_profile {
+		font-size: 16px;
+	}
+
+	.cicle-social {
+		width: 37px;
+		height: 37px;
+		border: 3px solid #222;
+		margin: 0 5px 51px 5px;
+		display: inline-block;
+	}
+
+	.cicle-social:hover {
+		cursor: pointer;
+		background-color: #A7A7A4;
+	}
+
+	.twitter {
+		background: url(../pic/twitter-black.png) center center no-repeat;
+	}
+
+	.facebook {
+		background: url(../pic/facebook-black.png) center center no-repeat;
+	}
+
+	.pinterest {
+		background: url(../pic/pinterest-black.png) center center no-repeat;
+	}
+
+	.google {
+		background: url(../pic/google-black.png) center no-repeat;
+		padding-bottom: 100%;
+	}
+
+	.text-team {
+		font-size: 16px;
+		display: block;
+		padding: 0 170px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	
+}
+
+@media screen and (max-width: 320px) {
+	
 }
