@@ -1,11 +1,24 @@
-/*About us and Our team*/
 @media screen and (max-width: 768px) {
+/*About us*/
 	.cicle-text {
 		font-size: 96%;
+	}
+/*Our team*/
+	.text-team {
+	    padding: 0 13%;
+    }
+
+    .profile {
+		margin: 0 9px;
+	}
+
+	.profile_all {
+		margin: 0 -9px;
 	}
 }
 
 @media screen and (max-width: 600px) {
+/*About us*/
 	.about-content_item {
 		width: 100%;
 	}
@@ -51,9 +64,20 @@
     	float: right;
     	margin: 0;
 	}
+
+/*Our team*/
+	.profile {
+		margin: 0 9px;
+		width: 40%;
+	}
+
+	.profile_all {
+		margin: 0 -9px;
+	}
 }
 
 @media screen and (max-width: 480px) {
+/*About us*/
 	.cicle-text-right {
 		display: inline-block;
 		text-transform: uppercase;
@@ -67,9 +91,24 @@
 	.cicle_about-last {
 		float: left;
 	}
+
+/*Our team*/
+	.profile {
+		margin: 0 4px;
+		width: 80%;
+	}
+
+	.profile_all {
+		margin: 0 -4px;
+	}
+
+	.text-team {
+	    padding: 0 8%;
+    }
 }
 
 @media screen and (max-width: 320px) {
+/*About us*/
 	.cicle-text-right {
 		padding-top: 5%;
 	}
@@ -77,4 +116,18 @@
 	.cicle_about-last {
 		border: 5px solid #f1f1f1;
 	}
+
+/*Our team*/
+	.profile {
+		margin: 0 4px;
+		width: 90%;
+	}
+
+	.profile_all {
+		margin: 0 -4px;
+	}
+
+	.text-team {
+	    padding: 0 4%;
+    }
 }
