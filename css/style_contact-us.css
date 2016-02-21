@@ -1,16 +1,469 @@
 
+/* base */
+.section {
+	padding:120px 0;
+	
+}
+
+.container {
+	max-width: 940px;
+	padding:0 10px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.clearfix::after {
+	content: "";
+	overflow: hidden;
+	display: table;
+	clear: both;
+}
+
+.title {
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #222;
+}
+
+.title-white {
+	color: #fff;
+}
+
+.description {
+	margin:19px 0 76px 0;
+	color: #777;
+	font-size: 17px;
+	font-family: 'Droid Serif', serif;
+	font-style: italic;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;	
+}
+/* endd ofbase */
+
+/* _______ style top  ______*/
+.wrapper {
+	position: absolute;
+	/*left: 16%; */
+	/*если оставить left: 16%; едет топ и сервис отделы*/
+}
+
+.top {
+	background: url(../img/tint.png), url(../img/top_bg.png) 100% 100% no-repeat;
+	background-size: cover;
+ 	color: #fff;
+}
+.top .clearfix {
+	content: none;
+}
+
+.header {
+    padding-top: 55px;
+    padding-bottom: 212px;
+}
+
+.logo {
+	width: 7%;
+	float: left;
+} 
+
+.nav {
+	min-width: 56%;
+	float: right;
+}	
+
+.menu {
+	height: 30px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 13px;
+	font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;	
+    float: left;
+    border: 1px solid transparent;
+	border-radius: 5px;
+}
+
+.menu:hover {
+	color: #fed136;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+
+.welcome {
+	clear: both;
+	font-size: 40px;
+	padding-bottom: 52px;
+	font-family: "DroidSerif";
+	color:#fff;
+	font-style: italic;
+}
+
+h1 {
+	font-size: 75px;
+	font-family: 'Montserrat', sans-serif;	
+}
+
+button {
+	margin-top: 59px;
+	margin-bottom: 160px;
+	width: 240px;
+	height: 65px;
+	background-color: #fed136;
+	border: 0px;
+	border-radius: 5px;
+	font-family: 'Montserrat', sans-serif;	
+	font-weight: 700;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.tellme:hover {
+	background-color: #8B658B;
+-webkit-transition: color .6s;
+	-o-transition: color .6s;
+	transition: color .6s;
+}
+/* end of style top*/
+
+/*services*/
+
+.services {
+}
+
+h2 {
+	/* margin-top: 40px;*/
+	color: #222;
+}
+/* закоментувала margin-top: 40px; та додала клас section для самого блоку, щоб не було схлопування з сусыдными блоками*/
+
+.col {
+	width: 30.33%;
+	margin: 0 1.5%;	
+	float: left;
+}
+
+.circles {
+	width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: 4px solid #fed136;
+    background: #fff;
+    position: relative;
+    margin: auto;
+}
+
+.circle-1 {
+	margin: 0;
+	position: absolute;
+	top: 20%;
+	right: 24%;
+}
+
+.circle-2 {
+	margin: 0;
+	position: absolute;
+	top: 23%;
+	right: 22%;
+}
+
+.circle-3 {
+	margin: 0;
+	position: absolute;
+	top: 21%;
+	right: 31%;
+}
+
+h3 {
+	font-family: "Montserrat";
+	font-size: 18px;
+	color: #222;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+.txt {
+ 	color: #777;
+	font-family: 'Roboto Slab', serif;
+	font-size: 13px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.7;
+}
+
+/*end of services*/
+
+/*our portfolio*/
+.portfolio {
+	background: #f7f7f7;
+	background-size: contain;
+	display: table;
+	width: 100%;
+}
+
+.portfolio h2 {
+/*	margin-top: 70px;
+*/	color: #222;
+	text-align: center;
+}
+
+.portfolio .col {
+	width: 30.33%;
+	margin: 0 1.5%;	
+	float: left;
+	margin: 14px;
+}
+
+.portfolio .img {
+	width: 290px;
+	height: 393px;
+    position: relative;
+    margin: auto;
+   background-color: white;
+}
+
+.portfolio .img1 {
+	z-index: 10;
+}
+
+.portfolio .img > div{
+	margin-top: 75px;
+}
+
+.portfolio h3 {
+	font-family: "Montserrat";
+	font-size: 18px;
+	color: #222;
+	margin-top: -50px;
+	margin-bottom: 6px;
+
+}
+
+.portfolio .txt {
+ 	color: #777;
+	font-family: "DroidSerif";
+	font-size: 13px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 0.7;
+}
+
+/*our end of portfolio*/
+
+/*about us*/
+.about-content_item {
+	position: relative;
+	width: 50%;
+}
+
+.about-content_item:not(:last-of-type) {
+ 	padding-bottom: 93px;
+ }
+
+ .about-content_item-left {
+ 	margin-left: 50%;
+ }
+
+.cicle {
+    border-radius: 50%;
+}
+
+.cicle_about {
+	margin: 0 2% 0 2%;
+    margin-right: -20%;
+    float: left;
+    width: 40%;
+    height: 0;
+    padding-bottom: 40%;
+}
+
+.cicle_about-left {
+	margin-left: -20%;
+	float: right;
+	margin-right: 0;
+}
+
+.cicle_about-1 {
+	background: url(../img/july.png) 100% no-repeat;
+	background-size: cover;
+}
+
+.cicle_about-2 {
+	background: url(../img/january.jpg) 100% no-repeat;
+	background-size: cover;
+}
+
+.cicle_about-3 {
+	background: url(../img/december.jpg) 100% no-repeat;
+	background-size: cover;
+}
+
+.cicle_about-4 {
+	background: url(../img/february.jpg) 100% no-repeat;
+	background-size: cover;
+}
+
+.cicle_about::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 2px;
+	background: #f1f1f1;
+	margin-left: -1px;
+	z-index: -1;
+}
+
+.text {
+	text-align: right;
+    width: 78%;
+    float: left;
+}
+
+.text-right {
+	text-align: left;
+    float: right;
+    margin: 0 0 0 2%;
+}
+
+.text-sub {
+	color: #777;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	font-weight: 400; 
+}
+
+.text-main {
+	color: #222;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 10px;
+}
+
+ .cicle_about-last {
+ 	border: 7px solid #f1f1f1;
+ 	background-color: #fed136;
+    position: relative;
+    margin: 0 0 0 80%;
+    width: 37%;
+    height: 0;
+    padding-bottom: 37%;
+ }
+
+ .cicle-text {
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	position: absolute;
+	top: 24%;
+	left: 18%;
+	text-align: center;
+}
+/* end of about us*/
+
+/* our amazing team*/
+
+.our_team {
+	background-color: #f9f9f9;
+}
+
+.profile {
+	display: inline-block;
+}
+
+.cicle-profile {
+	border: 7px solid #fff;
+ 	background-color: #111;
+ 	width: 227px;
+    height: 227px;
+    background: #111;
+    margin: 0 23px 20px;
+}
+
+.text-sub_profile {
+	font-size: 14px;
+	margin-bottom: 14px;
+}
+
+.text-main_profile {
+	font-size: 16px;
+}
+
+.cicle-social {
+	width: 37px;
+	height: 37px;
+	border: 3px solid #222;
+	margin: 0 5px 51px 5px;
+	display: inline-block;
+}
+
+.cicle-social:hover {
+	cursor: pointer;
+	background-color: #A7A7A4;
+}
+
+.twitter {
+	background: url(../pic/twitter-black.png) center center no-repeat;
+}
+
+.facebook {
+	background: url(../pic/facebook-black.png) center center no-repeat;
+}
+
+.pinterest {
+	background: url(../pic/pinterest-black.png) center center no-repeat;
+}
+
+.google {
+	background: url(../pic/google-black.png) center no-repeat;
+}
+
+.text-team {
+	font-size: 16px;
+	display: block;
+	padding: 0 170px;
+}
+/* end of our amazing team*/
+
+/* logo*/
+.logos_team {
+	margin: 0 -1.5%;
+}
+
+.logo_s {
+	margin: 0;
+}
+
+.logos {
+	vertical-align: middle;
+	width: 20%;
+    padding: 7% 1.5%;
+}	
+
+/* end of logo*/
+
 /*contact us*/
 
 .contact_us {
-	background: url("../img/map_image.png") #222 no-repeat 85% 100%;
+	background: url("../img/map_image.png") #222 no-repeat 100% 100%;
 	background-size: contain;
 	text-align: center;
 	display: table;
 	width: 100%;
 }
 
-
- .header2 {
+.header2 {
 	color: #fff;
 	font-size: 40px;
 	text-transform: uppercase;
@@ -23,7 +476,6 @@
 	font-size: 16px;
 	font-style: italic;
 }
-
 
 input {
 	width: 98%;
@@ -48,6 +500,8 @@ textarea, input {
 }
 
 .btn_msg {
+	margin-top: 19px;
+	margin-bottom: -160px;
     width: 240px;
     height: 65px;
     background-color: #fed136;
@@ -60,10 +514,11 @@ textarea, input {
     text-align: center;
     text-transform: uppercase;
     cursor: pointer;
+    margin-bottom: 0;
 }
 
 .btn_msg:hover {
-	color:rgba(182, 57, 135, 0.9);
+	background-color: #8B658B;
 -webkit-transition: color .6s;
 	-o-transition: color .6s;
 	transition: color .6s;
@@ -72,42 +527,25 @@ textarea, input {
 
 /* footer */
 .footer {
-	display: inline-block;
-	overflow: hidden;
-	width: 100%;
+	display: table;
+	width: 98%;
 }
-
-.wrap_cont {
-	padding: 4% 0;
-}
-
- .copyrights, 
- .soc_net {
-	display: block;
-	float: left;
-}
-
 
 .soc_net {
-	overflow: hidden;
-	float: left;
-	width: 31%;
-	margin-left: 5%;
-	padding-top: 1%;
-	padding-left: 5%;
-	padding-bottom: 5%;
+    padding-top: 1%;
 }
 
+.tw,
 .fb, 
-.gl, 
 .pin, 
-.tw {
+.gl
+ {
 	float: left;
 	width: 50px;
     height: 50px;
     border-radius: 25px;
 	background-repeat: no-repeat;
-	margin-right: 7%;
+	margin-right: 1%;
 	transition:All 1.3467s ease;
 	-webkit-transition:All 1.3467s ease;
 	-moz-transition:All 1.3467s ease;
@@ -119,44 +557,89 @@ textarea, input {
 	-ms-transform: rotate(0deg) scale(0.769);
 	}
 
+.tw:hover,
 .fb:hover,
-.gl:hover,
 .pin:hover,
-.tw:hover {
+.gl:hover
+{
 	transform: rotate(360deg) scale(1.226);
 	-webkit-transform: rotate(360deg) scale(1.226);
 	-moz-transform: rotate(360deg) scale(1.226);
 	-o-transform: rotate(360deg) scale(1.226);
 	-ms-transform: rotate(360deg) scale(1.226);
 }
+
+.tw {
+	background-image: url(../img/icon/sprite_social.png);
+	background-position: 4px 1px;
+	background-repeat: no-repeat;
+}
+
+.tw:hover {
+	background-image: url(../img/icon/icon_hover.png);
+	background-position: 4px 1px;
+	background-repeat: no-repeat;
+}
+
 .fb {
 	background-image: url(../img/icon/sprite_social.png);
 	background-position: -49px 1px;
 	background-repeat: no-repeat;
 }
-.gl {
-	background-image: url(../img/icon/sprite_social.png);
-	background-position: -146px 1px;
+
+.fb:hover {
+	background-image: url(../img/icon/icon_hover.png);
+	background-position: -49px 1px;
 	background-repeat: no-repeat;
-	}
+}
+
+
 
 .pin {
 	background-image: url(../img/icon/sprite_social.png);
 	background-position: -96px 1px;
 	background-repeat: no-repeat;
-	}
+}
 
-	.tw {
-	background-image: url(../img/icon/sprite_social.png);
-	background-position: 4px 1px;
+.pin:hover {
+	background-image: url(../img/icon/icon_hover.png);
+	background-position: -96px 1px;
 	background-repeat: no-repeat;
-	}
+}
 
- p {
-	padding-top: 6%;
+.gl {
+	background-image: url(../img/icon/sprite_social.png);
+	background-position: -146px 1px;
+	background-repeat: no-repeat;
+}
+
+.gl:hover {
+	background-image: url(../img/icon/icon_hover.png);
+	background-position: -146px 1px;
+	background-repeat: no-repeat;
+}
+
+ footer p {
+ 	float: left;
+	padding-top: 1.4%;
+	padding-right: 10%;
 	color: #555;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 22px;
-	}
+}
+	/* end of footer*/
+	
+	/* @viewport */
+@viewport,
+@-ms-viewport,
+@-webkit-viewport
+@-moz-viewport {
+   	width: device-width;
+   	zoom: 1;
+	max-zoom: 2;
+}	
+	/* end of @viewport */
+
+	/* @media */

@@ -535,42 +535,26 @@ textarea, input {
 
 /* footer */
 .footer {
-	display: inline-block;
+	display: table;
 	overflow: hidden;
-	width: 100%;
+	width: 98%;
 }
-
-.wrap_cont {
-	padding: 4% 0;
-}
-
- .copyrights, 
- .soc_net {
-	display: block;
-	float: left;
-}
-
 
 .soc_net {
-	overflow: hidden;
-	float: left;
-	width: 31%;
-	margin-left: 5%;
-	padding-top: 1%;
-	padding-left: 5%;
-	padding-bottom: 5%;
+    padding-top: 1%;
 }
 
+.tw,
 .fb, 
-.gl, 
 .pin, 
-.tw {
+.gl
+ {
 	float: left;
 	width: 50px;
     height: 50px;
     border-radius: 25px;
 	background-repeat: no-repeat;
-	margin-right: 7%;
+	margin-right: 1%;
 	transition:All 1.3467s ease;
 	-webkit-transition:All 1.3467s ease;
 	-moz-transition:All 1.3467s ease;
@@ -582,32 +566,16 @@ textarea, input {
 	-ms-transform: rotate(0deg) scale(0.769);
 	}
 
+.tw:hover,
 .fb:hover,
-.gl:hover,
 .pin:hover,
-.tw:hover {
+.gl:hover
+{
 	transform: rotate(360deg) scale(1.226);
 	-webkit-transform: rotate(360deg) scale(1.226);
 	-moz-transform: rotate(360deg) scale(1.226);
 	-o-transform: rotate(360deg) scale(1.226);
 	-ms-transform: rotate(360deg) scale(1.226);
-}
-
-.fb {
-	background-image: url(../img/icon/sprite_social.png);
-	background-position: -49px 1px;
-	background-repeat: no-repeat;
-}
-.gl {
-	background-image: url(../img/icon/sprite_social.png);
-	background-position: -146px 1px;
-	background-repeat: no-repeat;
-}
-
-.pin {
-	background-image: url(../img/icon/sprite_social.png);
-	background-position: -96px 1px;
-	background-repeat: no-repeat;
 }
 
 .tw {
@@ -616,8 +584,54 @@ textarea, input {
 	background-repeat: no-repeat;
 }
 
+.tw:hover {
+	background-image: url(../img/icon/icon_hover.png);
+	background-position: 4px 1px;
+	background-repeat: no-repeat;
+}
+
+.fb {
+	background-image: url(../img/icon/sprite_social.png);
+	background-position: -49px 1px;
+	background-repeat: no-repeat;
+}
+
+.fb:hover {
+	background-image: url(../img/icon/icon_hover.png);
+	background-position: -49px 1px;
+	background-repeat: no-repeat;
+}
+
+
+
+.pin {
+	background-image: url(../img/icon/sprite_social.png);
+	background-position: -96px 1px;
+	background-repeat: no-repeat;
+}
+
+.pin:hover {
+	background-image: url(../img/icon/icon_hover.png);
+	background-position: -96px 1px;
+	background-repeat: no-repeat;
+}
+
+.gl {
+	background-image: url(../img/icon/sprite_social.png);
+	background-position: -146px 1px;
+	background-repeat: no-repeat;
+}
+
+.gl:hover {
+	background-image: url(../img/icon/icon_hover.png);
+	background-position: -146px 1px;
+	background-repeat: no-repeat;
+}
+
  footer p {
-	padding-top: 6%;
+ 	float: left;
+	padding-top: 1.4%;
+	padding-right: 10%;
 	color: #555;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;

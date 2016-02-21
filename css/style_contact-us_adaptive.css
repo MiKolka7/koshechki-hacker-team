@@ -1,0 +1,48 @@
+@media screen and (max-width: 768px) {
+	/* contact us*/
+	
+	.contact_us {
+	background: url("../img/map_image.png") #222 no-repeat 100% 100%;
+	background-size: contain;
+	text-align: center;
+	width: 100%;
+	}
+
+	.input {
+    width: 100%;
+}
+
+	textarea, input {
+		display: block;
+		float: left;
+		width: 100%;
+		margin-bottom: 2.9%;
+	    padding: 2% 2%;
+		font-size: 14px;
+		text-transform: uppercase;
+		font-family: 'Montserrat', sans-serif;
+		border-radius: 4px;
+	}
+	
+	footer p {
+ 	float: left;
+ 	width: 100%;
+	padding-top: 1.4%;
+	padding-right: 10%;
+	color: #555;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	clear: both;
+}
+
+.footer {
+	width: 100%;
+}
+
+.soc_net {
+    padding-top: 1%;
+}
+	/*end of contact us */
+}
