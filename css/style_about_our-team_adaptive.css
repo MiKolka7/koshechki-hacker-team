@@ -105,6 +105,12 @@
 	.text-team {
 	    padding: 0 8%;
     }
+
+    .cicle-profile {
+	 	width: 60%;
+	    height: 0;
+	    padding-bottom: 60%;
+	}
 }
 
 @media screen and (max-width: 320px) {
@@ -130,4 +136,10 @@
 	.text-team {
 	    padding: 0 4%;
     }
+
+    .cicle-profile {
+	 	width: 80%;
+	    height: 0;
+	    padding-bottom: 80%;
+	}
 }
