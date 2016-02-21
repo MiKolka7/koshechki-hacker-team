@@ -543,13 +543,13 @@ textarea, input {
 	float: left;
 	width: 50px;
     height: 50px;
-    border-radius: 25px;
+    border-radius: 50%;
 	background-repeat: no-repeat;
 	margin-right: 1%;
-	transition:All 1.3467s ease;
-	-webkit-transition:All 1.3467s ease;
-	-moz-transition:All 1.3467s ease;
-	-o-transition:All 1.3467s ease;
+	transition:All 0.6467s ease;
+	-webkit-transition:All 0.6467s ease;
+	-moz-transition:All 0.6467s ease;
+	-o-transition:All 0.6467s ease;
 	transform: rotate(0deg) scale(0.769);
 	-webkit-transform: rotate(0deg) scale(0.769);
 	-moz-transform: rotate(0deg) scale(0.769);
@@ -562,11 +562,11 @@ textarea, input {
 .pin:hover,
 .gl:hover
 {
-	transform: rotate(360deg) scale(1.226);
-	-webkit-transform: rotate(360deg) scale(1.226);
-	-moz-transform: rotate(360deg) scale(1.226);
-	-o-transform: rotate(360deg) scale(1.226);
-	-ms-transform: rotate(360deg) scale(1.226);
+	transform: rotate(360deg) scale(1.126);
+	-webkit-transform: rotate(360deg) scale(1.126);
+	-moz-transform: rotate(360deg) scale(1.126);
+	-o-transform: rotate(360deg) scale(1.126);
+	-ms-transform: rotate(360deg) scale(1.126);
 }
 
 .tw {

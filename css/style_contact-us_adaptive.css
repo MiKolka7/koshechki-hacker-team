@@ -23,26 +23,61 @@
 		font-family: 'Montserrat', sans-serif;
 		border-radius: 4px;
 	}
-	
-	footer p {
- 	float: left;
- 	width: 100%;
-	padding-top: 1.4%;
-	padding-right: 10%;
-	color: #555;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 22px;
-	clear: both;
-}
 
-.footer {
-	width: 100%;
-}
-
-.soc_net {
-    padding-top: 1%;
-}
 	/*end of contact us */
+	
+	/* footer */
+
+	footer {
+		text-align: center;
+	}
+
+	footer p {
+	 	width: 100%;
+		padding-top: 3.4%;
+		padding-right: 10%;
+		color: #555;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 22px;
+		clear: both;
+		height: auto;
 }
+
+ 	.soc_net {
+		display: inline-block;
+	    padding-top: 3%;
+	    width: 37%;
+	    clear: both;
+	    height: auto;
+	}	
+
+	/*end of footer*/
+}
+
+
+@media screen and (max-width: 600px) {
+	.soc_net {
+		display: inline-block;
+	    padding-top: 3%;
+	    width: 30%;
+	    clear: both;
+	    height: auto;
+	}	
+	.soc_net .pin {
+		clear: left;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.soc_net {
+		display: inline-block;
+	    padding-top: 3%;
+	    width: 50%;
+	    clear: both;
+	    height: auto;
+	}	
+	.soc_net .pin {
+		clear: left;
+	}
