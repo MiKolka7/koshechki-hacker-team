@@ -543,7 +543,7 @@ textarea, input {
     height: 50px;
     border-radius: 50%;
 	background-repeat: no-repeat;
-	margin-right: 1%;
+	/*margin-right: 1%*/;
 	transition:All 0.6467s ease;
 	-webkit-transition:All 0.6467s ease;
 	-moz-transition:All 0.6467s ease;
