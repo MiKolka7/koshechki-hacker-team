@@ -74,14 +74,28 @@
 	.soc_net {
 		display: inline-block;
 	    padding-top: 3%;
-	    width: 37%;
+	    width: 71%;
 	    clear: both;
 	    height: auto;
 	}	
-	.soc_net .pin {
+	/*.soc_net .pin {
 		clear: left;
 		
-	}
+	}*/
 
 }
 
+@media screen and (max-width: 320px) {
+	.soc_net {
+		display: inline-block;
+	    padding-top: 3%;
+	    width: 120%;
+	    clear: both;
+	    height: auto;
+	}	
+	/*.soc_net .pin {
+		clear: left;
+		
+	}*/
+
+}
