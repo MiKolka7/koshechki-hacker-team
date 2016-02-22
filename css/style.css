@@ -535,16 +535,12 @@ textarea, input {
 /* end of contact us*/
 
 /* footer */
-footer {
-	display: inline-block;
-	width: 100%;
-	height: auto;
-}
+.footer {
+	display: block;
+	width: 98%;
 
 .soc_net {
     padding-top: 1%;
-    display: inline-block;
-    height: auto;
 }
 
 .tw,
@@ -552,7 +548,6 @@ footer {
 .pin, 
 .gl
  {
- 	display: inline-block;
 	float: left;
 	width: 50px;
     height: 50px;
@@ -634,7 +629,7 @@ footer {
 
  footer p {
  	float: left;
-	padding-top: 1.4%;
+	padding-top: 2.4%;
 	padding-right: 10%;
 	color: #555;
 	font-family: 'Montserrat', sans-serif;
