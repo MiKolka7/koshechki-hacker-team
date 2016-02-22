@@ -510,6 +510,8 @@ textarea, input {
 }
 
 .btn_msg {
+    margin-top: 19px;
+	margin-bottom: -160px;
     width: 240px;
     height: 65px;
     background-color: #fed136;
@@ -523,11 +525,10 @@ textarea, input {
     text-transform: uppercase;
     cursor: pointer;
     margin-bottom: 0;
-}
 
 .btn_msg:hover {
 	background-color: #8B658B;
--webkit-transition: color .6s;
+	-webkit-transition: color .6s;
 	-o-transition: color .6s;
 	transition: color .6s;
 }
@@ -535,10 +536,8 @@ textarea, input {
 
 /* footer */
 .footer {
-	display: table;
-	overflow: hidden;
+	display: block;
 	width: 98%;
-}
 
 .soc_net {
     padding-top: 1%;
@@ -630,7 +629,7 @@ textarea, input {
 
  footer p {
  	float: left;
-	padding-top: 1.4%;
+	padding-top: 2.4%;
 	padding-right: 10%;
 	color: #555;
 	font-family: 'Montserrat', sans-serif;
