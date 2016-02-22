@@ -497,6 +497,8 @@ textarea, input {
 }
 
 .btn_msg {
+	margin-top: 7px;
+	margin-bottom: -160px;
     width: 240px;
     height: 65px;
     background-color: #fed136;
@@ -523,12 +525,11 @@ textarea, input {
 /* footer */
 .footer {
 	display: table;
-	overflow: hidden;
 	width: 98%;
 }
 
 .soc_net {
-    padding-top: 1%;
+    padding-top: 1.5%;
 }
 
 .tw,
@@ -617,8 +618,8 @@ textarea, input {
 
  footer p {
  	float: left;
-	padding-top: 1.4%;
-	padding-right: 10%;
+	padding-top: 2.4%;
+	padding-right: 11.5%;
 	color: #555;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
