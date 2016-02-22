@@ -1,0 +1,48 @@
+@media screen and (max-width: 768px) {
+/* Top */
+	.menu {
+		padding: 0 10px;
+	}
+
+	.nav {
+		margin: 0 -10px;
+	}
+	
+	.welcome {
+		font-size: 35px;
+		padding: 150px 0 42px;
+	}
+
+	h1 {
+		font-size: 54px;	
+	}
+
+/* End of Top*/
+}
+
+@media screen and (max-width: 600px) {
+/* Top */
+
+	.welcome {
+	    font-size: 29px;
+	    padding: 100px 0 35px;
+	}
+
+	h1 {
+		font-size: 45px;
+	}	
+/* End of Top*/
+}
+
+@media screen and (max-width: 480px) {
+/* Top */
+	.welcome {
+	    font-size: 27px;
+	}
+
+	h1 {
+		font-size: 44px;
+	}	
+	
+/* End of Top*/
+}
