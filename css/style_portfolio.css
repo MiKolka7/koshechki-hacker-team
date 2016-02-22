@@ -1,51 +1,49 @@
 .portfolio {
+	padding: 40px 0;
+	text-align: center;
 	background: #f7f7f7;
-	background-size: contain;
 	display: table;
-	width: 100%;
-	max-width:100%;
+    width: 100%;
 }
 
-h2 {
+.portfolio-container {
+    display: table;
+    margin: 0 auto;
+}
+
+.portfolio .portfolio-container .col-container {
+    display: table;
+    max-width: 1300px;
+}
+
+.portfolio .portfolio-container h2 {
 	margin-top: 70px;
 	color: #222;
 	text-align: center;
-
 }
 
-.col {
-	width: 30.33%;
-	margin: 0 1.5%;	
+.portfolio .portfolio-container .col-container .col {
 	float: left;
-	margin: 14px;
+    height: 380px; /* высота прямоугольников */
+    margin: 20px; /* отступы сверху=снизу=слева=справа=25px*/
 }
 
-.img {
-	width: 290px;
-	height: 393px;
-    position: relative;
-    margin: auto;
+.portfolio .portfolio-container .col-container .col figure {
     background-color: white;
+    height: 100%;
 }
 
-.img1 {
-	z-index: 10;
+.portfolio .portfolio-container .col-container .col div {
+    margin-top: 20px;
 }
 
-.img > div{
-	margin-top: 75px;
-}
-
-h3 {
+.portfolio .portfolio-container .col-container .col h3 {
 	font-family: "MontserratBold";
 	font-size: 18px;
 	color: #222;
-	margin-top: -50px;
-	margin-bottom: 6px;
-
 }
 
-.text_sub{
+.portfolio .portfolio-container .col-container .col p {
  	color: #777;
 	font-family: "DroidSerifItalic";
 	font-size: 13px;
@@ -53,5 +51,3 @@ h3 {
 	text-align: center;
 	line-height: 0.7;
 }
-
-
