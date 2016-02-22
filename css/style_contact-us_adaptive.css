@@ -65,10 +65,6 @@
 	    clear: both;
 	    height: auto;
 	}	
-/*	.soc_net .pin {
-		clear: left;
-	}
-}*/
 
 @media screen and (max-width: 480px) {
 	.soc_net {
@@ -78,10 +74,6 @@
 	    clear: both;
 	    height: auto;
 	}	
-	/*.soc_net .pin {
-		clear: left;
-		
-	}*/
 
 }
 
@@ -89,13 +81,14 @@
 	.soc_net {
 		display: inline-block;
 	    padding-top: 3%;
-	    width: 120%;
+	    padding-right: 0; 
+	    width: 100%;
 	    clear: both;
 	    height: auto;
 	}	
-	/*.soc_net .pin {
-		clear: left;
-		
-	}*/
+	
+	.tw, .fb, .pin, .gl {
+	    margin-right: -2%;
+	}
 
 }
