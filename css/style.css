@@ -530,29 +530,32 @@ textarea, input {
 
 /* footer */
 .footer {
-	display: table;
-	width: 98%;
+	/*display: table;*/
+	/*width: 98%;*/
 }
 
-/*.soc_net {
+.soc_net {
     padding-top: 1.5%;
-}*/
+    padding-right: 30%;
+    /*margin-left: 3%;*/
+}
 
 .tw,
 .fb, 
 .pin, 
 .gl
  {
+ 	display: inline-block;
 	/*float: left;*/
 	width: 50px;
     height: 50px;
     border-radius: 50%;
-	background-repeat: no-repeat;
-	/*margin-right: 1%*/;
-	transition:All 0.6467s ease;
-	-webkit-transition:All 0.6467s ease;
-	-moz-transition:All 0.6467s ease;
-	-o-transition:All 0.6467s ease;
+    	
+    background-repeat: no-repeat;
+	transition:All 0.5467s ease;
+	-webkit-transition:All 0.5467s ease;
+	-moz-transition:All 0.5467s ease;
+	-o-transition:All 0.5467s ease;
 	}
 
 /*transition:All 0.6467s ease;
@@ -626,10 +629,10 @@ textarea, input {
 	background-repeat: no-repeat;
 }
 
- footer p {
- 	/*float: left;*/
+ .copyrights {
+ 	display: inline-block;
+ 	float: left;
 	padding-top: 2.4%;
-	padding-right: 11.5%;
 	color: #555;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
