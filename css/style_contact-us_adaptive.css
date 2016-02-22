@@ -46,12 +46,13 @@
 }
 
  	.soc_net {
-		display: inline-block;
-	    padding-top: 3%;
-	    width: 37%;
-	    clear: both;
-	    height: auto;
-	}	
+    display: inline-block;
+    padding-top: 3%;
+    width: 37%;
+    /* clear: both; */
+    /* height: auto; */
+    text-align: center;
+}
 
 	/*end of footer*/
 }
@@ -59,12 +60,13 @@
 
 @media screen and (max-width: 600px) {
 	.soc_net {
-		display: inline-block;
-	    padding-top: 3%;
-	    width: 47%;
-	    clear: both;
-	    height: auto;
-	}	
+    display: inline-block;
+    /* padding-top: 3%; */
+    width: 47%;
+    /* clear: both; */
+    /* height: auto; */
+}
+}
 
 @media screen and (max-width: 480px) {
 	.soc_net {
@@ -74,18 +76,25 @@
 	    clear: both;
 	    height: auto;
 	}	
-
+	
+	.tw:hover, .fb:hover, .pin:hover, .gl:hover {
+	   /* transform: rotate(360deg) scale(1.126);
+	    -webkit-transform: rotate(360deg) scale(1.126);
+	    -moz-transform: rotate(360deg) scale(1.126);
+	    -o-transform: rotate(360deg) scale(1.126);
+	    -ms-transform: rotate(360deg) scale(1.126);*/
+	}
 }
 
 @media screen and (max-width: 320px) {
 	.soc_net {
-		display: inline-block;
-	    padding-top: 3%;
-	    padding-right: 0; 
-	    width: 88%;
-	    clear: both;
-	    height: auto;
-	}	
+    /* display: inline-block; */
+    /* padding-top: 3%; */
+    padding-right: 0;
+    width: 190px;
+    /* clear: both; */
+    /* height: auto; */
+	}		
 	
 	.tw, .fb, .pin, .gl {
 	    margin-right: -2%;

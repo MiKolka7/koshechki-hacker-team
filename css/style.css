@@ -522,7 +522,7 @@ textarea, input {
 
 .btn_msg:hover {
 	background-color: #8B658B;
--webkit-transition: color .6s;
+	-webkit-transition: color .6s;
 	-o-transition: color .6s;
 	transition: color .6s;
 }
@@ -534,16 +534,16 @@ textarea, input {
 	width: 98%;
 }
 
-.soc_net {
+/*.soc_net {
     padding-top: 1.5%;
-}
+}*/
 
 .tw,
 .fb, 
 .pin, 
 .gl
  {
-	float: left;
+	/*float: left;*/
 	width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -553,13 +553,17 @@ textarea, input {
 	-webkit-transition:All 0.6467s ease;
 	-moz-transition:All 0.6467s ease;
 	-o-transition:All 0.6467s ease;
+	}
+
+/*transition:All 0.6467s ease;
+	-webkit-transition:All 0.6467s ease;
+	-moz-transition:All 0.6467s ease;
+	-o-transition:All 0.6467s ease;
 	transform: rotate(0deg) scale(0.769);
 	-webkit-transform: rotate(0deg) scale(0.769);
 	-moz-transform: rotate(0deg) scale(0.769);
 	-o-transform: rotate(0deg) scale(0.769);
-	-ms-transform: rotate(0deg) scale(0.769);
-	}
-
+	-ms-transform: rotate(0deg) scale(0.769);*/
 .tw:hover,
 .fb:hover,
 .pin:hover,
@@ -623,7 +627,7 @@ textarea, input {
 }
 
  footer p {
- 	float: left;
+ 	/*float: left;*/
 	padding-top: 2.4%;
 	padding-right: 11.5%;
 	color: #555;
