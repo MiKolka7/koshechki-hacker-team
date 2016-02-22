@@ -189,53 +189,53 @@ h3 {
 
 /*our portfolio*/
 .portfolio {
-	padding: 40px 0;
-	text-align: center;
 	background: #f7f7f7;
+	background-size: contain;
 	display: table;
-    width: 100%;
+	width: 100%;
 }
 
-.portfolio-container {
-    display: table;
-    margin: 0 auto;
-}
-
-.portfolio .portfolio-container .col-container {
-    display: table;
-    max-width: 1300px;
-}
-
-.portfolio .portfolio-container h2 {
-	margin-top: 70px;
-	color: #222;
+.portfolio h2 {
+/*	margin-top: 70px;
+*/	color: #222;
 	text-align: center;
 }
 
-.portfolio .portfolio-container .col-container .col {
+.portfolio .col {
+	width: 30.33%;
+	margin: 0 1.5%;	
 	float: left;
-    height: 380px; /* высота прямоугольников */
-    margin: 20px; /* отступы сверху=снизу=слева=справа=25px*/
+	margin: 14px;
 }
 
-.portfolio .portfolio-container .col-container .col figure {
-    background-color: white;
-    height: 100%;
+.portfolio .img {
+	width: 290px;
+	height: 393px;
+    position: relative;
+    margin: auto;
+   background-color: white;
 }
 
-.portfolio .portfolio-container .col-container .col div {
-    margin-top: 20px;
+.portfolio .img1 {
+	z-index: 10;
 }
 
-.portfolio .portfolio-container .col-container .col h3 {
-	font-family: "MontserratBold";
+.portfolio .img > div{
+	margin-top: 75px;
+}
+
+.portfolio h3 {
+	font-family: "Montserrat";
 	font-size: 18px;
 	color: #222;
+	margin-top: -50px;
+	margin-bottom: 6px;
+
 }
 
-.portfolio .portfolio-container .col-container .col p {
+.portfolio .txt {
  	color: #777;
-	font-family: "DroidSerifItalic";
+	font-family: "DroidSerif";
 	font-size: 13px;
 	font-weight: 400;
 	text-align: center;
