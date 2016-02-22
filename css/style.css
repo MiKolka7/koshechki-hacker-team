@@ -193,6 +193,8 @@ h3 {
 	background-size: contain;
 	display: table;
 	width: 100%;
+	max-width:100%;
+	padding: 10% 0;
 }
 
 .portfolio h2 {
@@ -233,7 +235,7 @@ h3 {
 
 }
 
-.portfolio .txt {
+.portfolio .text_sub {
  	color: #777;
 	font-family: "DroidSerif";
 	font-size: 13px;
