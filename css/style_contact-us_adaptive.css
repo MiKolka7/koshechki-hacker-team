@@ -28,29 +28,14 @@
 	
 	/* footer */
 
-	footer {
+	.copyrights {
 		text-align: center;
 	}
-
-	footer p {
-	 	width: 100%;
-		padding-top: 3.4%;
-		padding-right: 10%;
-		color: #555;
-		font-family: 'Montserrat', sans-serif;
-		font-size: 14px;
-		font-weight: 400;
-		line-height: 22px;
-		clear: both;
-		height: auto;
-}
 
  	.soc_net {
     display: inline-block;
     padding-top: 3%;
     width: 37%;
-    /* clear: both; */
-    /* height: auto; */
     text-align: center;
 }
 
@@ -60,40 +45,26 @@
 
 @media screen and (max-width: 600px) {
 	.soc_net {
-    display: inline-block;
-    /* padding-top: 3%; */
+/*    display: inline-block;*/
     width: 47%;
-    /* clear: both; */
-    /* height: auto; */
-}
+	}
+
+		.copyrights {
+			padding-right: 10%;
+	}
 }
 
 @media screen and (max-width: 480px) {
 	.soc_net {
-		display: inline-block;
-	    padding-top: 3%;
-	    width: 71%;
-	    clear: both;
-	    height: auto;
+	    width: 89%;
 	}	
-	
-	.tw:hover, .fb:hover, .pin:hover, .gl:hover {
-	   /* transform: rotate(360deg) scale(1.126);
-	    -webkit-transform: rotate(360deg) scale(1.126);
-	    -moz-transform: rotate(360deg) scale(1.126);
-	    -o-transform: rotate(360deg) scale(1.126);
-	    -ms-transform: rotate(360deg) scale(1.126);*/
-	}
 }
 
 @media screen and (max-width: 320px) {
 	.soc_net {
-    /* display: inline-block; */
-    /* padding-top: 3%; */
+
     padding-right: 0;
-    width: 190px;
-    /* clear: both; */
-    /* height: auto; */
+    width: 98%;
 	}		
 	
 	.tw, .fb, .pin, .gl {
