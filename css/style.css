@@ -208,10 +208,11 @@ h3 {
 }
 
 .portfolio .col {
-	width: 30.33%;
-	margin: 0 1.5%;	
-	float: left;
-	margin: 14px;
+	width: 29.33%;
+    background-color: white;
+    text-align: center;
+    margin: 0 2% 50px;
+    float: left;
 }
 
 .portfolio .img {
@@ -227,25 +228,25 @@ h3 {
 }
 
 .portfolio .img > div{
-	margin-top: 75px;
+	width: 100%;
 }
 
 .portfolio h3 {
 	font-family: "Montserrat";
 	font-size: 18px;
 	color: #222;
-	margin-top: -50px;
+	margin-top: 0 auto;
 	margin-bottom: 6px;
 
 }
 
 .portfolio .text_sub {
- 	color: #777;
-	font-family: "DroidSerif";
-	font-size: 13px;
-	font-weight: 400;
-	text-align: center;
-	line-height: 0.7;
+ 	color: #737373;
+	font-family: 'Droid Serif', serif;
+	font-size: 14px;
+	font-style: italic;
+	margin: 0;
+	padding-bottom: 28px;
 }
 
 /*our end of portfolio*/
