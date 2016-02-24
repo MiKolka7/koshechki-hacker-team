@@ -252,7 +252,7 @@ h3 {
 /*our end of portfolio*/
 
 /*about us*/
-.about-content_item {
+.about-content_item:not(:last-of-type) {
 	position: relative;
 	width: 50%;
 }
@@ -261,7 +261,7 @@ h3 {
  	padding-bottom: 93px;
  }
 
- .about-content_item-left {
+.about-content_item-left {
  	margin-left: 50%;
  }
 
@@ -270,18 +270,15 @@ h3 {
 }
 
 .cicle_about {
-	margin: 0 2% 0 2%;
-    margin-right: -20%;
-    float: left;
-    width: 40%;
-    height: 0;
-    padding-bottom: 40%;
+    margin: 0 -91px 0 40px;
+    float: right;
+    width: 182px;
+    height: 182px;
 }
 
 .cicle_about-left {
-	margin-left: -20%;
-	float: right;
-	margin-right: 0;
+	margin: 0 40px 0 -91px;
+	float: left;
 }
 
 .cicle_about-1 {
@@ -317,14 +314,10 @@ h3 {
 
 .text {
 	text-align: right;
-    width: 78%;
-    float: left;
 }
 
 .text-right {
 	text-align: left;
-    float: right;
-    margin: 0 0 0 2%;
 }
 
 .text-sub {
@@ -345,17 +338,17 @@ h3 {
 .cicle_about-last {
  	border: 7px solid #f1f1f1;
  	background-color: #fed136;
-    margin: 0 0 0 80%;
-    width: 37%;
-    height: 0;
-    padding-bottom: 37%;
+ 	text-align: center;
+    width: 175px;
+    height: 175px;
+    margin: 0 auto;
  }
 
 .cicle-text {
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
 	color: white;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 113%;
+	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;

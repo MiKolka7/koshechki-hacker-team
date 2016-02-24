@@ -1,8 +1,21 @@
 @media screen and (max-width: 768px) {
 /*About us*/
-	.cicle-text {
-		font-size: 96%;
+	.cicle_about {
+    	margin-left: 0 -91px 0 10%;
+    }
+
+    .cicle_about-left {
+    	margin-right: 0 10% 0 -91px;
+    }
+	
+	.text-sub {
+		font-size: 16px;
 	}
+
+	.text-main {
+		font-size: 17px;
+	}
+
 /*Our team*/
 	.text-team {
 	    padding: 0 13%;
@@ -19,50 +32,12 @@
 
 @media screen and (max-width: 600px) {
 /*About us*/
-	.about-content_item {
-		width: 100%;
+	.text-sub {
+		font-size: 15px;
 	}
 
-	.about-content_item-left {
-    	margin-left: 0;
-	}
-
-	.cicle_about {
-	    width: 25%;
-	    padding-bottom: 25%;
-	    float: right;
-	    margin: 0 2% 0 0;
-	}
-	
-	.cicle_about-left {
-		margin: 0 2% 0 2%;
-		float: left;
-		margin-left: 0;
-	}
-
-	.text {
-	    width: 73%;
-	    text-align: left;
-	    float: right;
-	}
-
-	.cicle_about-last {
-	 	border: 7px solid #f1f1f1;
-	    margin: 0;
-	    width: 22%;
-	    padding-bottom: 22%;
-	 }
-
-	.cicle-text {
-		font-size: 96%;
-		padding-top: 16%;
-	}
-
-	.text-right {
-		text-align: left;
-    	width: 73%;
-    	float: right;
-    	margin: 0;
+	.text-main {
+		font-size: 16px;
 	}
 
 /*Our team*/
@@ -78,18 +53,34 @@
 
 @media screen and (max-width: 480px) {
 /*About us*/
-	.cicle-text-right {
-		display: inline-block;
-		text-transform: uppercase;
-		padding-top: 9%;
+	.about-content_item:not(:last-of-type) {
+		width: 100%;
+		padding-bottom: 20%;
 	}
 
-	.cicle-text {
+	.cicle_about::after {
 		display: none;
 	}
 
-	.cicle_about-last {
-		float: left;
+	.about-content_item-left {
+		margin: 0;
+	}
+
+	.cicle_about, .cicle_about-left, .cicle_about-last {
+	    margin: 0 10% 5% 0;
+	    float: left;
+	}
+
+    .text, .text-right {
+		text-align: left;
+	}
+
+	.text-sub {
+		font-size: 13px;
+	}
+
+	.text-main {
+		font-size: 15px;
 	}
 
 /*Our team*/
@@ -115,12 +106,35 @@
 
 @media screen and (max-width: 320px) {
 /*About us*/
-	.cicle-text-right {
-		padding-top: 5%;
+	.cicle_about, .cicle_about-left, .cicle_about-last {
+		float: none;
+	    margin: 0 auto 10%;
+	    text-align: center;
 	}
 
-	.cicle_about-last {
-		border: 5px solid #f1f1f1;
+	.about-content_item-left {
+		margin: 0;
+	}
+
+	.about-content_item:not(:last-of-type) {
+		width: 100%;
+		padding-bottom: 20%;
+	}
+
+	.cicle_about::after {
+		display: none;
+	}
+
+	.text, .text-right {
+		text-align: center;
+	}
+
+	.text-sub {
+		font-size: 12px;
+	}
+
+	.text-main {
+		font-size: 14px;
 	}
 
 /*Our team*/
