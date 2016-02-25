@@ -82,6 +82,12 @@ h2 {
 	color: #fed136;
 }
 
+#touch-menu,
+label[for="touch-menu"] {
+	float: right;
+	display: none;
+}
+
 .welcome {
 	clear: both;
 	font-size: 40px;

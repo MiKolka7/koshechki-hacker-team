@@ -1,11 +1,27 @@
 @media screen and (max-width: 768px) {
 /* Top */
-	.menu {
-		padding: 0 10px;
+
+	#touch-menu:checked + .nav {
+		display: block;
+	}
+
+	label[for="touch-menu"] {
+		display: block;
+		cursor: pointer;
 	}
 
 	.nav {
-		margin: 0 -10px;
+		right: 17px;
+    	top: 74px;
+		display: none;
+		position: absolute;
+		text-align: right;
+	}		
+
+	.menu {
+		line-height: 35px;
+		margin-left: 0;
+		display: block;
 	}
 	
 	.welcome {
@@ -22,7 +38,7 @@
 
 @media screen and (max-width: 600px) {
 /* Top */
-
+	
 	.welcome {
 	    font-size: 29px;
 	    padding: 100px 0 35px;
