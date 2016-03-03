@@ -2,7 +2,6 @@
 /* base */
 .section {
 	padding:120px 0;
-	
 }
 
 .container {
@@ -10,6 +9,7 @@
 	padding:0 10px;
 	text-align: center;
 	margin: 0 auto;
+	position: relative;
 }
 
 .clearfix::after {
@@ -43,11 +43,6 @@ h2 {
 /* endd ofbase */
 
 /* _______ style top  ______*/
-.wrapper {
-	position: absolute;
-	/*left: 16%; */
-	/*если оставить left: 16%; едет топ и сервис отделы*/
-}
 
 .top {
 	padding: 50px 0 0;
@@ -65,12 +60,11 @@ h2 {
 
 .nav {
 	float: right;
-	margin: 0 -20px;
 }	
 
 .menu {
-	padding: 0 20px;
-	font-size: 16px;
+	padding: 5px 19px 0px 21px;
+    font-size: 14px;
 	font-family: 'Montserrat', sans-serif;
     color: #fff;
     opacity: 0.9;
@@ -90,9 +84,9 @@ label[for="touch-menu"] {
 
 .welcome {
 	clear: both;
-	font-size: 40px;
-	opacity: 0.9;
-	padding: 200px 0 52px;
+	font-size: 39px;
+    opacity: 0.9;
+    padding: 194px 0 28px;
 	font-family: 'Droid Serif', serif;
 	font-weight: 400;
 	font-style: italic;
@@ -100,15 +94,14 @@ label[for="touch-menu"] {
 }
 
 h1 {
-	font-size: 75px;
+	font-size: 70px;
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	opacity: 0.9;	
 }
 
-button {
-	margin-top: 59px;
-	margin-bottom: 160px;
+.btn {
+	margin: 46px 0 160px;
 	width: 240px;
 	height: 65px;
 	background-color: #fed136;
@@ -132,59 +125,52 @@ button {
 /* end of style top*/
 
 /*services*/
-
 .services {
+	padding:112px 0;
 }
 
-h2 {
-	/* margin-top: 40px;*/
+.serv {
+	font-size: 39px;
 	color: #222;
 }
-/* закоментувала margin-top: 40px; та додала клас section для самого блоку, щоб не було схлопування з сусыдными блоками*/
+
+.servdesc {
+	margin: 11px 0 76px 0;
+	font-size: 16px;
+}
 
 .col {
-	width: 30.33%;
-	margin: 0 1.5%;	
+	width: 31.3%;
+    margin: 0 1%;	
 	float: left;
 }
 
 .circles {
-	width: 72px;
-    height: 72px;
+	width: 64px;
+    height: 64px;
     border-radius: 50%;
     border: 4px solid #fed136;
     background: #fff;
-    position: relative;
     margin: auto;
 }
 
 .circle-1 {
-	margin: 0;
-	position: absolute;
-	top: 20%;
-	right: 24%;
+	margin: 11px auto;
 }
 
 .circle-2 {
-	margin: 0;
-	position: absolute;
-	top: 23%;
-	right: 22%;
+	margin: 13px auto;
 }
 
 .circle-3 {
-	margin: 0;
-	position: absolute;
-	top: 21%;
-	right: 31%;
+	margin: 10px auto;
 }
 
 h3 {
 	font-family: "Montserrat";
-	font-size: 18px;
+	font-size: 17.5px;
 	color: #222;
-	margin-top: 25px;
-	margin-bottom: 15px;
+	margin: 24px 0 9px;
 }
 
 .txt {
@@ -199,60 +185,52 @@ h3 {
 /*end of services*/
 
 /*our portfolio*/
-.portfolio {
-	background: #f7f7f7;
-	background-size: contain;
-	display: table;
+.portfolio { 
 	width: 100%;
-	max-width:100%;
+	background-color: #f7f7f7;
+	background-size: cover;
+	padding: 110px 0;
 }
 
-.portfolio h2 {
-/*	margin-top: 70px;
-*/	color: #222;
-	text-align: center;
-}
-
-.portfolio .col {
-	width: 29.33%;
-    background-color: white;
-    text-align: center;
-    margin: 0 2% 50px;
-    float: left;
-}
-
-.portfolio .img {
-	width: 290px;
-	height: 393px;
-    position: relative;
-    margin: auto;
-   background-color: white;
-}
-
-.portfolio .img1 {
-	z-index: 10;
-}
-
-.portfolio .img > div{
-	width: 100%;
-}
-
-.portfolio h3 {
-	font-family: "Montserrat";
-	font-size: 18px;
+.portf {
 	color: #222;
-	margin-top: 0 auto;
-	margin-bottom: 6px;
-
+	font-size: 39px;
 }
 
-.portfolio .text_sub {
+.portfdesc {
+    margin: 9px 0 76px 0;
+    font-size: 16px;
+}    
+
+.sixpics {
+    text-align: center;
+    margin: 0 0 50px;
+}
+
+.rectangle {
+	width: 30%;
+	margin: 0 1.16% 4%;	
+   	background-color: white;
+   	float: left;
+}
+
+.galleryimg {
+	width: 100%;
+}
+
+.caption {
+	margin: 22px 0 0px;
+	font-family: "Montserrat";
+	font-size: 17.5px;
+	color: #222;
+}
+
+.caption_sub {
  	color: #737373;
 	font-family: 'Droid Serif', serif;
 	font-size: 14px;
 	font-style: italic;
-	margin: 0;
-	padding-bottom: 28px;
+	padding: 1px 0 27px;
 }
 
 /*our end of portfolio*/
