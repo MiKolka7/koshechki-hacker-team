@@ -1,0 +1,181 @@
+@media screen and (max-width: 768px) {
+/* home */
+	.home {
+		padding: 20px 0 0;
+	}
+
+	/* header*/
+		#touch-menu:checked + .nav {
+			display: block;
+		}
+
+		label[for="touch-menu"] {
+			display: block;
+			cursor: pointer;
+		}
+
+		.nav {
+			position: absolute;
+			right: 1%;
+    		top: 5%;
+			display: none;
+			text-align: right;
+			background-color: rgba(56, 55, 57, 0.7);
+			border: 0px solid;
+			border-radius: 7px;
+			z-index: 1;
+		}		
+
+		.menu {
+			display: block;
+			float: none;
+		    border: 0px;
+		    margin: 0px;
+		    padding: 7px 18px;
+		    font-size: 17px;
+		}
+	/* end of header */
+
+	.welcome {
+		font-size: 30px;
+		padding: 100px 0 40px;
+	}
+
+	h1 {
+		font-size: 50px;	
+	}
+
+	.btn {
+		margin: 46px 0 90px;
+	}
+/* end of home */
+
+/* services */
+	.services {
+		padding: 80px 0;
+	}
+/* end of services*/
+
+/* portfolio */
+	.portfolio { 
+		padding: 80px 0;
+	}
+/* end of portfolio*/
+}
+
+@media screen and (max-width: 600px) {
+/* home */
+	.welcome {
+	    font-size: 29px;
+	    padding: 100px 0 35px;
+	}
+
+	h1 {
+		font-size: 35px;
+	}
+	/* header*/
+		.menu {
+		    padding: 7px 15px;
+		    font-size: 15px;
+		}
+	/* end of header */	
+	
+/* end of home*/
+
+/* services */
+	.services {
+		padding: 60px 0;
+	}
+
+	.txt {
+	    font-size: 12px;
+	    line-height: 1.4; 
+	}
+/* end of services*/
+
+/* portfolio */
+	.portfolio { 
+		padding: 60px 0;
+	}
+
+	.caption {
+		font-size: 13.5px;
+	}
+
+	.caption_sub {
+		font-size: 12.5px;
+	}
+/* end of portfolio*/
+
+}
+
+@media screen and (max-width: 480px) {
+/* home */
+	.welcome {
+	    font-size: 23px;
+	}	
+	/* header*/
+		.nav {
+			background-color: rgba(31, 29, 36, 0.6);
+		}	
+
+		.menu {
+		    padding: 3px 5px;
+    		font-size: 14px;
+		}
+	/* end of header */	
+
+/* end of home*/
+
+/* services */
+	.services {
+		padding: 60px 0 40px;
+	}
+
+	.col {
+	    width: 84%;
+	    margin: 8% auto;	
+		float: none;
+	}
+/* end of services*/
+
+/* portfolio */
+	.rectangle {
+	    width: 80%;
+   		margin: 2% 10%;
+	}
+
+	.caption {
+		font-size: 17.5px;
+	}
+
+	.caption_sub {
+		font-size: 14px;
+	}
+/* end of portfolio*/
+}
+
+@media screen and (max-width: 320px) {
+/* home */	
+	.welcome {
+	    font-size: 20px;
+	    padding: 80px 0 35px;
+	}
+	
+	/* header*/
+		.nav {
+			right: 2%;
+    		top: 7%;
+			background-color: rgba(31, 29, 36, 0.95);
+		}	
+		.menu {
+			padding: 2px 22px;
+    		font-size: 38px;
+		}
+	/* end of header*/
+	
+	.btn {
+	    margin: 50px 0 65px;
+	}
+/* end of home*/
+}

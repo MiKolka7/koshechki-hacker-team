@@ -7,10 +7,7 @@
 	<title>Git Hub Lesson 9 team work</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/style_top_adaptive.css">
-	<link rel="stylesheet" type="text/css" href="css/style_services_adaptive.css">
-	<link rel="stylesheet" href="css/style_portfolio_adaptive.css">
-	<link rel="stylesheet" href="css/style_about_our-team_adaptive.css">
+	<link rel="stylesheet" type="text/css" href="css/style_home_serv_portfolio_adaptive.css">
 	<link rel="stylesheet" href="css/style_about_our-team_adaptive.css">
 	<link rel="stylesheet" href="css/style_contact-us_adaptive.css">
 	<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400italic,400' rel='stylesheet' type='text/css'>
@@ -18,14 +15,16 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<!-- header -->
-	<section class="top">
+<!-- home -->
+	<section class="home" id="home">
 		
 		<div class="container">
-
+	
+	<!-- header -->
 			<header class="clearfix">
+
 				<div class="logo">	
-					<img src="pic/logo.png">
+					<img class="logo" src="pic/logo.png">
 				</div>
 
 				<label for="touch-menu"><img src="img/top_header/icon-menu.svg" alt=""></label>
@@ -34,24 +33,24 @@
 				<nav class="nav">
 					<a class="menu" href="#top" title="">Home</a>
 					<a class="menu" href="#services" title="">Services</a>
-					<a class="menu" href="#portfolio" title="">Portfolios</a>
+					<a class="menu" href="#portfolio" title="">Portfolio</a>
 					<a class="menu" href="#about" title="">About</a>
 					<a class="menu" href="#contact" title="">Contact</a>
 				</nav>
 
-
 			</header>	
+	<!-- header -->
 
 			<p class="welcome">Welcome To Our Studio!</p>
 
 			<h1>It’s nice to Meet you</h1>
 
-			<button class="tellme btn" type="submit" value="next">Tell Me More</button>
+			<button class="tellme btn" type="submit" value="next"><a class="intotellme" href="#services" title="">Tell Me More</a></button>
 
 		</div>
 
 	</section>
-<!-- end of header -->
+<!-- end of home -->
 <!-- services -->
 	<section class="services section" id="services">
 		<div class="container clearfix">	
@@ -90,14 +89,14 @@
 	</section>		
 <!-- end of services -->
 <!-- portfolio -->
-	<section class="section portfolio">
+	<section class="section portfolio" id="portfolio">
 
 		<div class="container">	
 			<h2 class="title portf">OUR PORTFOLIO</h2>
 
 			<p class="description portfdesc">Proin iaculis purus consequat sem cure.</p>
 
-			<div class="sixpics clearfix">
+			<div class="clearfix">
 				<figure class="rectangle">
 					<img class="galleryimg" src="img/services_portfolio/image1.png">
 					<h3 class="caption">Ebony and Ivory</h3>
@@ -138,7 +137,7 @@
 		</div>
 
 	</section>
-<!-- portfolio -->
+<!-- end of portfolio -->
 <!-- about us -->
 	<section class="section about" id="about">
 		<div class="container">
@@ -246,7 +245,7 @@
 	</section>
 <!-- about us -->
 <!-- logo -->
-	<section class="logos_team clearfix">		
+	<section class="clearfix">		
 		<div class="container">
 			<figure class="logo_s">
 			 	<img class="logos" src="img/logo/envato.png" alt="">
