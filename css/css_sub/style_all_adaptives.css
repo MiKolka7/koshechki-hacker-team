@@ -1,0 +1,454 @@
+@media screen and (max-width: 768px) {
+
+/* home */
+	.home {
+		padding: 20px 0 0;
+	}
+
+	/* header */
+		#touch-menu:checked + .nav {
+			display: block;
+		}
+
+		label[for="touch-menu"] {
+			display: block;
+			cursor: pointer;
+		}
+
+		.nav {
+			position: absolute;
+			right: 1%;
+    		top: 5%;
+			display: none;
+			text-align: right;
+			background-color: rgba(56, 55, 57, 0.7);
+			border: 0px solid;
+			border-radius: 7px;
+			z-index: 1;
+		}		
+
+		.menu {
+			display: block;
+			float: none;
+		    border: 0px;
+		    margin: 0px;
+		    padding: 7px 18px;
+		    font-size: 17px;
+		}
+	/* end of header */
+
+	.welcome {
+		font-size: 30px;
+		padding: 100px 0 40px;
+	}
+
+	h1 {
+		font-size: 50px;	
+	}
+
+	.btn {
+		margin: 46px 0 90px;
+	}
+/* end of home */
+
+/* services */
+	.services {
+		padding: 80px 0;
+	}
+/* end of services */
+
+/* portfolio */
+	.portfolio { 
+		padding: 80px 0;
+	}
+/* end of portfolio */
+
+/* about us */
+	.cicle_about {
+    	margin-left: 0 -91px 0 10%;
+    }
+
+    .cicle_about-left {
+    	margin-right: 0 10% 0 -91px;
+    }
+	
+	.text-sub {
+		font-size: 16px;
+	}
+
+	.text-main {
+		font-size: 17px;
+	}
+/* end of about us */
+
+/* our team */
+	.text-team {
+	    padding: 0 13%;
+    }
+
+    .profile {
+		margin: 0 9px;
+	}
+
+	.profile_all {
+		margin: 0 -9px;
+	}
+/* end of our team */
+
+/* contact us */
+	.contact_us {
+		background: url("../img/map_image.png") #222 no-repeat 100% 100%;
+		background-size: contain;
+		text-align: center;
+		width: 100%;
+	}
+
+	.input {
+    	width: 100%;
+	}
+
+	textarea, input {
+		display: block;
+		float: left;
+		width: 100%;
+		margin-bottom: 2.9%;
+	    padding: 2% 2%;
+		font-size: 14px;
+		text-transform: uppercase;
+		font-family: 'Montserrat', sans-serif;
+		border-radius: 4px;
+	}
+
+	/* footer */
+		.copyrights {
+			text-align: center;
+		}
+
+	 	.soc_net {
+		    display: inline-block;
+		    padding-top: 3%;
+		    width: 37%;
+		    text-align: center;
+		}
+	/* end of footer */
+/* end of contact us */	
+}
+
+
+@media screen and (max-width: 600px) {
+
+/* base */
+	.section {
+		padding: 100px 0;
+	}
+
+	.title {
+		font-size: 38px;
+	}
+
+	.description {
+		font-size: 16px;
+	}
+/* end of base */
+
+/* home */
+	.welcome {
+	    font-size: 29px;
+	    padding: 100px 0 35px;
+	}
+
+	h1 {
+		font-size: 35px;
+	}
+	/* header */
+		.menu {
+		    padding: 7px 15px;
+		    font-size: 15px;
+		}
+	/* end of header */	
+/* end of home*/
+
+/* services */
+	.services {
+		padding: 60px 0;
+	}
+
+	.txt {
+	    font-size: 12px;
+	    line-height: 1.4; 
+	}
+/* end of services */
+
+/* portfolio */
+	.portfolio { 
+		padding: 60px 0;
+	}
+
+	.caption {
+		font-size: 13.5px;
+	}
+
+	.caption_sub {
+		font-size: 12.5px;
+	}
+/* end of portfolio */
+
+/* about us */
+	.text-sub {
+		font-size: 15px;
+	}
+
+	.text-main {
+		font-size: 16px;
+	}
+/* end of about us */
+
+/* our team */
+	.profile {
+		margin: 0 9px;
+		width: 40%;
+	}
+
+	.profile_all {
+		margin: 0 -9px;
+	}
+/* end of our team */
+
+/* contact us */
+	/* footer */
+		.soc_net {
+		/* display: inline-block;*/
+		    width: 47%;
+		}
+
+		.copyrights {
+			padding-right: 10%;
+		}
+	/* end of footer */	
+/* end of contact us */	
+}
+
+@media screen and (max-width: 480px) {
+
+/* base */
+	.section {
+		padding: 72px 0;
+	}
+
+	.title {
+		font-size: 30px;
+	}
+
+	.description {
+		margin: 12px 0 42px 0;
+		font-size: 15px;
+	}
+/* end of base */
+
+/* home */
+	.welcome {
+	    font-size: 23px;
+	}	
+	/* header */
+		.nav {
+			background-color: rgba(31, 29, 36, 0.6);
+		}	
+
+		.menu {
+		    padding: 3px 5px;
+    		font-size: 14px;
+		}
+	/* end of header */	
+/* end of home */
+
+/* services */
+	.services {
+		padding: 60px 0 40px;
+	}
+
+	.col {
+	    width: 84%;
+	    margin: 8% auto;	
+		float: none;
+	}
+/* end of services */
+
+/* portfolio */
+	.rectangle {
+	    width: 80%;
+   		margin: 2% 10%;
+	}
+
+	.caption {
+		font-size: 17.5px;
+	}
+
+	.caption_sub {
+		font-size: 14px;
+	}
+/* end of portfolio */
+
+/* about us */
+	.about-content_item:not(:last-of-type) {
+		width: 100%;
+		padding-bottom: 20%;
+	}
+
+	.cicle_about::after {
+		display: none;
+	}
+
+	.about-content_item-left {
+		margin: 0;
+	}
+
+	.cicle_about, .cicle_about-left, .cicle_about-last {
+	    margin: 0 10% 5% 0;
+	    float: left;
+	}
+
+    .text, .text-right {
+		text-align: left;
+	}
+
+	.text-sub {
+		font-size: 13px;
+	}
+
+	.text-main {
+		font-size: 15px;
+	}
+/* end of about us */
+
+/* our team */
+	.profile {
+		margin: 0 4px;
+		width: 80%;
+	}
+
+	.profile_all {
+		margin: 0 -4px;
+	}
+
+	.text-team {
+	    padding: 0 8%;
+    }
+
+    .cicle-profile {
+	 	width: 60%;
+	    height: 0;
+	    padding-bottom: 60%;
+	}
+/* end of our team */
+
+/* contact us */
+	/* footer */
+		.soc_net {
+		    width: 89%;
+		}	
+	/* end of footer */
+/* end of contact us */	
+}
+
+@media screen and (max-width: 320px) {
+	
+/* base */
+	.title {
+		font-size: 23px;
+	}
+
+	.description {
+		font-size: 14px;
+	}
+/* end of base */
+
+/* home */	
+	.welcome {
+	    font-size: 20px;
+	    padding: 80px 0 35px;
+	}
+	
+	/* header */
+		.nav {
+			right: 2%;
+    		top: 7%;
+			background-color: rgba(31, 29, 36, 0.95);
+		}	
+		.menu {
+			padding: 2px 22px;
+    		font-size: 38px;
+		}
+	/* end of header */
+	
+	.btn {
+	    margin: 50px 0 65px;
+	}
+/* end of home */
+
+/* about us */
+	.cicle_about, .cicle_about-left, .cicle_about-last {
+		float: none;
+	    margin: 0 auto 10%;
+	    text-align: center;
+	}
+
+	.about-content_item-left {
+		margin: 0;
+	}
+
+	.about-content_item:not(:last-of-type) {
+		width: 100%;
+		padding-bottom: 20%;
+	}
+
+	.cicle_about::after {
+		display: none;
+	}
+
+	.text, .text-right {
+		text-align: center;
+	}
+
+	.text-sub {
+		font-size: 12px;
+	}
+
+	.text-main {
+		font-size: 14px;
+	}
+/* end of about us */
+
+/* our team */
+	.profile {
+		margin: 0 4px;
+		width: 90%;
+	}
+
+	.profile_all {
+		margin: 0 -4px;
+	}
+
+	.text-team {
+	    padding: 0 4%;
+    }
+
+    .cicle-profile {
+	 	width: 80%;
+	    height: 0;
+	    padding-bottom: 80%;
+	}
+/* end of our team*/
+
+/* contact us*/
+	/* footer */
+		.soc_net {
+		    padding-right: 0;
+		    width: 98%;
+		}		
+	
+		.tw, .fb, .pin, .gl {
+		    margin-right: -2%;
+		}
+	/*end of footer*/
+/*end of contact us */	
+}
